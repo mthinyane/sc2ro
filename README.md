@@ -1,8 +1,8 @@
 <h1 align="center">Smart Citizen Cyber Resilience Ontology (SC2RO)</h1>
-<h4 align="center">Version: 0.1 (pre-release)</h4>
+<h4 align="center">Version: 0.1 (Pre-release)</h4>
 
 ## Description 
-The Smart Citizen Cyber Resilience Ontology (SC2RO) maps the cyber resilience landscape for individuals. It identifies cyber resources, vulnerabilities, threats, responses and harms associated with and specific to individual citizen's cyber functionings.
+The Smart Citizen Cyber Resilience Ontology (SC2RO) maps the cyber resilience landscape for individuals. It identifies cyber resources, vulnerabilities, threats, responses and harms associated with and specific to individual citizen's cyber functionings. As an example, beyond the technical threats associated with the confidentiality, integrity and availability (CIA-triad) goals, the ontology also maps socio-technical threats as well as natural threats that hamper individuals cyber functionings.
 
 Cyber resilience is the ability to maintain positive functioning and adaptation in the context of adverse cyber incidents, which can be technical, socio-technical, natural, and manmade. 
 
@@ -13,15 +13,17 @@ This ontology is part of a project that is undertaken to enhance the resilience 
 ## Status, Roadmap and Future Work
 The SC2RO is under active development towards the first release version (v1.0)
  
-*Version 2.0 (planned release)*
-* Validation of the ontology
-
-*Version 1.0 (planned release)*
+*Version 1.0 (Planned release)*
 * Description (rdfs:comment) and labeling (rdfs:label) of all the Classes
 
-**Version 0.1 (current)**
+**Version 0.1 (Current)**
 * Formulation of key properties in the ontology
 * High-level modeling of the domain concepts: Resources (Assets), Vulnerabilities, Threats, Responses (Countermeasures), and Harms (Impacts)
+
+### Future Versions and Work ###
+* External validation and supplementation of the ontology
+* Development of a RESTful API based on the ontology
+* Populating the ontology with context-specific instances and relations
 
 ## Using the Ontology
 The SC2RO ontology can be used for several purposes including:
