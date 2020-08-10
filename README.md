@@ -10,7 +10,7 @@ Cyber resilience has largely been framed from the perspectives of nation-states,
 
 This ontology is part of a project that is undertaken to enhance the resilience of citizens in smart digital futures.
 
-## Status, roadmap and future work
+## Status, Roadmap and Future Work
 The SC2RO is under active development towards the first release version (v1.0)
  
 *Version 2.0 (planned release)*
@@ -23,7 +23,7 @@ The SC2RO is under active development towards the first release version (v1.0)
 * Formulation of key properties in the ontology
 * High-level modeling of the domain concepts: Resources (Assets), Vulnerabilities, Threats, Responses (Countermeasures), and Harms (Impacts)
 
-## Using the ontology
+## Using the Ontology
 The SC2RO ontology can be used for several purposes including:
 
 * To provide a common vocabulary and shared understanding of the citizens' cybersecurity domain
@@ -33,7 +33,7 @@ The SC2RO ontology can be used for several purposes including:
 
 ### Suggested Tools ###
 
-* Use an RDF/OWL Ontology Editor of your choice to view the sc2ro.owl file, but we recommend [Protege] (https://protege.stanford.edu/)
+* Use an RDF/OWL Ontology Editor of your choice to view the sc2ro.owl file, but we recommend [Protege](https://protege.stanford.edu/)
 * To incorporate the SC2RO ontology into software solutions, most RDF/OWL semantic web libraries should suffice. We recommend [OwlReady2](https://pythonhosted.org/Owlready2/intro.html) for python developers and [Jena](https://jena.apache.org/) for Java developers. 
 * To visualize the ontology we recommend using the OntoGraf plugin in Protege or [WebVOWL](http://vowl.visualdataweb.org/webvowl.html) visualizer.
 
