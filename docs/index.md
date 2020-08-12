@@ -14,7 +14,7 @@ Such a focus makes it difficult to operationalize cyber resilience into relevant
 ## What is the big idea?
 This ontology is part of a project that aims to **enhance the resilience of citizens in smart digital futures**. 
 
-Digital technologies are part and parcel of our daily lives, as individuals, communities, cities, countries, and the global community. The provide numerous benefits that improve our overal quality of life. However, there are also significant adverse impacts that are cause by and enabled by digital technologies. The goal of cyber resilience is for life to continue and for people to thrive despite these significant adverse impacts.
+Digital technologies are part and parcel of our daily lives, as individuals, communities, cities, countries, and the global community. They provide numerous benefits that improve our overall quality of life. However, there are also significant adverse impacts that are cause by and enabled by digital technologies. The goal of cyber resilience is for life to continue and for people to thrive despite these significant adverse impacts.
 
 ## How you can get involved?
 You can contribute towards this goal by:
@@ -24,4 +24,4 @@ You can contribute towards this goal by:
 * suggestig updates to the definition of the concepts
 * providing robust examples of countermeasures / responses that work for specific cyber threats
 * building tools and applications that make use of the ontology
-* contributing in any other way towards enhancing our overall cyber resilience
+* contributing in any other way towards enhancing our global cyber resilience
