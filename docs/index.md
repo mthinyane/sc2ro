@@ -2,7 +2,7 @@
 
 The Smart Citizen Cyber Resilience Ontology (SC2RO) maps the cyber resilience landscape for individuals. It identifies cyber resources, vulnerabilities, threats, responses and harms associated with and specific to individual citizen's cyber functionings.
 
-![]({{ site.url }}/docs/images/onto_elements.png)
+![]({{ site.url }}/images/onto_elements.png)
 
 Cyber resilience is the ability to maintain positive functioning and adaptation in the context of adverse cyber incidents, which can be technical, socio-technical, natural, and manmade.
 
