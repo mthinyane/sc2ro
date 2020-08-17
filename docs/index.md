@@ -1,5 +1,4 @@
 ---
-title: Smart Citizen Cyber Resilience Ontology (SC2RO)
 layout: category
 ---
 
