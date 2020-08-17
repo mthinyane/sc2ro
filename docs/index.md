@@ -1,6 +1,12 @@
 ---
 title: What is SC2RO?
 layout: category
+elements:
+  - content
+  - css
+  - formatting
+  - html
+  - markup
 ---
 
 The Smart Citizen Cyber Resilience Ontology (SC2RO) maps the cyber resilience landscape for individuals. It identifies cyber resources, vulnerabilities, threats, responses and harms associated with and specific to individual citizen's cyber functionings.
