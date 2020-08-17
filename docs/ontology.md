@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Smart Citizen Cyber Resilience Ontology</title>
@@ -241,7 +240,7 @@
 </section>
 <section id="overview">
     <h2>Overview</h2>
-        <p><img src="images/onto_elements.png" alt="SC2RO Overview" width="400"></p></div>
+        <p><img src="images/onto_elements.png" alt="SC2RO Overview" width="400"></p>
 </section>
   <section id="classes">
     <h2>Classes <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
