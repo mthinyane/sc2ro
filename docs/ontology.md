@@ -194,7 +194,7 @@
     ],
     "https://schema.org/description": [
       {
-        "@value": "<p>The Smart Citizen Cyber Resilience Ontology (SC2RO) maps the cyber resilience landscape for individuals. It identifies cyber resources, vulnerabilities, threats, responses and harms associated with and specific to individual citizen’s cyber functionings.</p>"
+        "@value": "<p>The Smart Citizen Cyber Resilience Ontology (SC2RO) maps the cyber resilience landscape for individuals. It identifies cyber resources, vulnerabilities, threats, responses and harms associated with and specific to individual citizen's cyber functionings.</p>"
       }
     ],
     "https://schema.org/name": [
@@ -217,14 +217,12 @@
     <dl>
         <dt>URI</dt>
         <dd><code>http://cs.unu.edu/sc2r</code></dd>
-        <dt>Version Information</dt>
-        <dd>0.1</dd>
         <dt>Ontology RDF</dt>
         <dd><a href="https://github.com/UNU-Macau/sc2ro">RDF (xml)</a></dd>
     </dl>
     <h2>Description</h2>
     <div id="description">
-        <p>The Smart Citizen Cyber Resilience Ontology (SC2RO) maps the cyber resilience landscape for individuals. It identifies cyber resources, vulnerabilities, threats, responses and harms associated with and specific to individual citizen’s cyber functionings.</p>
+        <p>The Smart Citizen Cyber Resilience Ontology (SC2RO) maps the cyber resilience landscape for individuals. It identifies cyber resources, vulnerabilities, threats, responses and harms associated with and specific to individual citizen's cyber functionings.</p>
     </div>
 </section>
 <section id="toc">
@@ -233,7 +231,6 @@
         <li><a href="#classes">Classes</a></li>
         <li><a href="#objectproperties">Object Properties</a></li>
         <li><a href="#datatypeproperties">Datatype Properties</a></li>
-        <li><a href="#annotationproperties">Annotation Properties</a></li>
         <li><a href="#namespaces">Namespaces</a></li>
         <li><a href="#legend">Legend</a></li>
     </ol>
@@ -256,12 +253,12 @@
         <li><a href="#AdaptMeasure">Adapt Measure</a></li>
         <li><a href="#Addiction">Addiction</a></li>
         <li><a href="#Agency">Agency</a></li>
-        <li><a href="#AlternativeChannelMeasure">Alternative Channel Measure</a></li>
+        <li><a href="#AlternativeResourceMeasure">Alternative Resource Measure</a></li>
         <li><a href="#AnglerPhishing">Angler Phishing</a></li>
         <li><a href="#AnonymityThreat">Anonymity Threat</a></li>
         <li><a href="#AnonymousRouting">Anonymous Routing</a></li>
         <li><a href="#AnticipateMeasure">Anticipate Measure</a></li>
-        <li><a href="#AssetInventory">Asset Inventory</a></li>
+        <li><a href="#AssetInventoryManagement">Asset Inventory Management</a></li>
         <li><a href="#AttitudinalMeasure">Attitudinal Measure</a></li>
         <li><a href="#AuthenticationThreat">Authentication Threat</a></li>
         <li><a href="#AvailabilityThreat">Availability Threat</a></li>
@@ -285,7 +282,7 @@
         <li><a href="#Cheerleading">Cheerleading</a></li>
         <li><a href="#Coercion">Coercion</a></li>
         <li><a href="#CognitiveImpairement">Cognitive Impairement</a></li>
-        <li><a href="#CognitiveandInfluenceThreat">Cognitive and Influence Threat</a></li>
+        <li><a href="#CognitiveThreat">Cognitive Threat</a></li>
         <li><a href="#CompensationPayment">Compensation Payment</a></li>
         <li><a href="#Compromised">Compromised</a></li>
         <li><a href="#Computer">Computer</a></li>
@@ -322,7 +319,7 @@
         <li><a href="#Destroyed">Destroyed</a></li>
         <li><a href="#DeviceIdentification">Device Identification</a></li>
         <li><a href="#DiffusionofResponsibility">Diffusion of Responsibility</a></li>
-        <li><a href="#DigitalFootprint">Digital Footprint</a></li>
+        <li><a href="#DigitalFootprintManagement">Digital Footprint Management</a></li>
         <li><a href="#DigitalHoarding">Digital Hoarding</a></li>
         <li><a href="#DigitalResource">Digital Resource</a></li>
         <li><a href="#DigitalVulnerability">Digital Vulnerability</a></li>
@@ -388,9 +385,11 @@
         <li><a href="#IncidentReporting">Incident Reporting</a></li>
         <li><a href="#IncreaseResourceMeasure">Increase Resource Measure</a></li>
         <li><a href="#IndividualPersonalResource">Individual Personal Resource</a></li>
+        <li><a href="#IndividualandPersonalThreat">Individual and Personal Threat</a></li>
         <li><a href="#IndividualandPersonalVulnerability">Individual and Personal Vulnerability</a></li>
         <li><a href="#Infected">Infected</a></li>
         <li><a href="#InfluenceOperation">Influence Operation</a></li>
+        <li><a href="#InfluenceThreat">Influence Threat</a></li>
         <li><a href="#InformationFlooding">Information Flooding</a></li>
         <li><a href="#InformationOverload">Information Overload</a></li>
         <li><a href="#InfrastructureResource">Infrastructure Resource</a></li>
@@ -402,7 +401,6 @@
         <li><a href="#IntrusionDetection">Intrusion Detection</a></li>
         <li><a href="#IsolateMeasure">Isolate Measure</a></li>
         <li><a href="#Isolation">Isolation</a></li>
-        <li><a href="#KeyPrinciples">Key Principles</a></li>
         <li><a href="#KnowledgeResource">Knowledge Resource</a></li>
         <li><a href="#Laptop">Laptop</a></li>
         <li><a href="#Laundering">Laundering</a></li>
@@ -458,7 +456,6 @@
         <li><a href="#PasswordManagement">Password Management</a></li>
         <li><a href="#PersistenceSexualThreat">Persistence Sexual Threat</a></li>
         <li><a href="#PersonalData">Personal Data</a></li>
-        <li><a href="#PersonalThreat">Personal Threat</a></li>
         <li><a href="#Phishing">Phishing</a></li>
         <li><a href="#PhysicalHarm">Physical Harm</a></li>
         <li><a href="#PhysicalResource">Physical Resource</a></li>
@@ -491,6 +488,7 @@
         <li><a href="#ReducedPerformance">Reduced Performance</a></li>
         <li><a href="#RedundancyMeasure">Redundancy Measure</a></li>
         <li><a href="#RemoteCodeExecution">Remote Code Execution</a></li>
+        <li><a href="#RemovalMeasure">Removal Measure</a></li>
         <li><a href="#Replay">Replay</a></li>
         <li><a href="#ReportingMeasure">Reporting Measure</a></li>
         <li><a href="#ReputationResource">Reputation Resource</a></li>
@@ -508,6 +506,7 @@
         <li><a href="#RighttoPrivacy">Right to Privacy</a></li>
         <li><a href="#RighttoPsychologicalPrivacy">Right to Psychological Privacy</a></li>
         <li><a href="#RighttoSocialPrivacy">Right to Social Privacy</a></li>
+        <li><a href="#RighttoTerritorialPrivacy">Right to Territorial Privacy</a></li>
         <li><a href="#Rights">Rights</a></li>
         <li><a href="#SDCard">SD Card</a></li>
         <li><a href="#Sandboxing">Sandboxing</a></li>
@@ -536,8 +535,8 @@
         <li><a href="#SocialMediaMonitoring">Social Media Monitoring</a></li>
         <li><a href="#SocialNetworkResource">Social Network Resource</a></li>
         <li><a href="#SocialSupport">Social Support</a></li>
-        <li><a href="#SocialThreat">Social Threat</a></li>
         <li><a href="#SocialWithdrawal">Social Withdrawal</a></li>
+        <li><a href="#SocietalandSocialThreat">Societal and Social Threat</a></li>
         <li><a href="#Socio-cognitiveHacking">Socio-cognitive Hacking</a></li>
         <li><a href="#SockPuppetry">Sock Puppetry</a></li>
         <li><a href="#Software">Software</a></li>
@@ -558,6 +557,7 @@
         <li><a href="#TechnicalMediation">Technical Mediation</a></li>
         <li><a href="#TechnologicalThreat">Technological Threat</a></li>
         <li><a href="#TheftHarm">Theft Harm</a></li>
+        <li><a href="#TheftThreat">Theft Threat</a></li>
         <li><a href="#TheftofFinances">Theft of Finances</a></li>
         <li><a href="#Threat">Threat</a></li>
         <li><a href="#ThreatMonitoringMeasure">Threat Monitoring Measure</a></li>
@@ -600,17 +600,24 @@
                 <td><code>http://cs.unu.edu/sc2r#AbsorbMeasure</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Responses are framed around four resilience phases of Prepare, Absorb, Recover, and Adapt.</p>
+<p>The Absorb phase is triggered by the occurrence of an adverse cyber event, which diminishes and degrades individuals’ overall core cyber functioning (i.e., harmful impact). The effectiveness of the Absorb measures adopted in this phase determines the extent of the impact of the adverse incident.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Response">Response</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Response">sc2r:Response</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#ReportingMeasure">Reporting</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#EngageMeasure">EngageMeasure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#WithstandMeasure">WithstandMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#WithstandMeasure">sc2r:WithstandMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EngageMeasure">sc2r:EngageMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ReportingMeasure">sc2r:Reporting</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -631,19 +638,19 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialThreat">SocialThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalThreat">sc2r:PersonalThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#CyberPredator">CyberPredator</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#CyberStalking">CyberStalking</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Flaming">Flaming</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#UnsolicitedCommunication">UnsolicitedCommunication</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Cyberbullying">Cyberbullying</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Trolling">Trolling</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SexualAbuseThreat">SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SexualAbuseThreat">sc2r:SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Cyberbullying">sc2r:Cyberbullying</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#UnsolicitedCommunication">sc2r:UnsolicitedCommunication</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Flaming">sc2r:Flaming</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#CyberPredator">sc2r:CyberPredator</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#CyberStalking">sc2r:CyberStalking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Trolling">sc2r:Trolling</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -658,7 +665,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalHarm">PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalHarm">sc2r:PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -671,18 +678,24 @@
                 <td><code>http://cs.unu.edu/sc2r#AccessControl</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Access control is the prevention measure that involves controlling and authorizing access to cyber resources</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PreventionMeasure">PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PreventionMeasure">sc2r:PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#LeastPrivilege">LeastPrivilege</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Firewall">Firewall</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#PhysicalRestriction">PhysicalRestriction</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Sandboxing">Sandboxing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Sandboxing">sc2r:Sandboxing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#LeastPrivilege">sc2r:LeastPrivilege</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Firewall">sc2r:Firewall</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalRestriction">sc2r:PhysicalRestriction</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -703,7 +716,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AuthenticationThreat">AuthenticationThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AuthenticationThreat">sc2r:AuthenticationThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -716,9 +729,15 @@
                 <td><code>http://cs.unu.edu/sc2r#AccountRecovery</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Account recovery measures involve restoring access and control of an account after an adverse cyber incident.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#RecoverMeasure">RecoverMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RecoverMeasure">sc2r:RecoverMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -731,9 +750,15 @@
                 <td><code>http://cs.unu.edu/sc2r#ActiveMediation</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Active Mediation involves awareness-raising and discussion with potential victims of adverse cyber incidents.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MediationMeasures">MediationMeasures</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MediationMeasures">sc2r:MediationMeasures</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -754,7 +779,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PersonalData">PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PersonalData">sc2r:PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -767,16 +792,23 @@
                 <td><code>http://cs.unu.edu/sc2r#AdaptMeasure</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Responses are framed around four resilience phases of Prepare, Absorb, Recover, and Adapt.</p>
+<p>Once baseline cyber functioning has been restored, the Adapt phase can commence and Adapt measures can be put in the place, using the learnings and experience from the adverse event to inform the evolution and increase in cyber functioning and to “bounce forward better”</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Response">Response</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Response">sc2r:Response</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#CapacityBuilding">CapacityBuilding</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#EvolveMeasure">Evolve</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#CapacityBuilding">sc2r:CapacityBuilding</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EvolveMeasure">sc2r:Evolve</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -791,7 +823,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -812,28 +844,35 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualPersonalResource">IndividualResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualPersonalResource">sc2r:IndividualResource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#MentalFaculties">MentalFaculties</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MentalFaculties">sc2r:MentalFaculties</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
-    <div class="entity class" id="AlternativeChannelMeasure">
-        <h3>Alternative Channel Measure<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="AlternativeResourceMeasure">
+        <h3>Alternative Resource Measure<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>URI</th>
-                <td><code>http://cs.unu.edu/sc2r#AlternativeChannel</code></td>
+                <td><code>http://cs.unu.edu/sc2r#AlternativeResource</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>This measure involves engaging alternative complementary cyber resources to deal with incidents that have deminished cyber functioning of primary resources.</p>
+<p>For example, in cases of data corruption, the redundant backups of the data would be utilized. In cases where a computing device is damaged, an alternative device would be utilized.</p>
+                </td>
             </tr>
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#WithstandMeasure">WithstandMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#WithstandMeasure">sc2r:WithstandMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -854,7 +893,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Phishing">Phishing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Phishing">sc2r:Phishing</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -875,7 +914,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PrivacyThreat">PrivacyThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PrivacyThreat">sc2r:PrivacyThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -888,9 +927,15 @@
                 <td><code>http://cs.unu.edu/sc2r#AnonymousRouting</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Anonymous routing is the use of computing networks in a way that protects communication from identification by third-party observers.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#TrustedNetworking">TrustedNetworking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TrustedNetworking">sc2r:TrustedNetworking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -903,19 +948,25 @@
                 <td><code>http://cs.unu.edu/sc2r#AnticipateMeasure</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Anticipate Measure are put in place by individual to prepare for and anticipate the inevitability of adverse cyber incidents.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PrepareMeasure">PrepareMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PrepareMeasure">sc2r:PrepareMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#RecoveryPlan">RecoveryPlan</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Training">Training</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#AttitudinalMeasure">AttitudinalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#RedundancyMeasure">RedundancyMeasure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Awareness">Awareness</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Training">sc2r:Training</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RedundancyMeasure">sc2r:RedundancyMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RecoveryPlan">sc2r:RecoveryPlan</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AttitudinalMeasure">sc2r:AttitudinalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Awareness">sc2r:Awareness</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -930,28 +981,34 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>The Right to Assemble (freedom of association) is individual's right to gather and meet, both publicly and privately.</p>
+                    <p>The Rght to Assemble (freedom of association) is individual's right to gather and meet, both publicly and privately.</p>
                 </td>
             </tr>
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Rights">Right</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Rights">sc2r:Right</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
-    <div class="entity class" id="AssetInventory">
-        <h3>Asset Inventory<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="AssetInventoryManagement">
+        <h3>Asset Inventory Management<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>URI</th>
                 <td><code>http://cs.unu.edu/sc2r#AssetInventory</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Asset inventory Management involves maintaining a list of cyber resources and assets that individuals have access to.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Awareness">Awareness</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Awareness">sc2r:Awareness</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -964,18 +1021,24 @@
                 <td><code>http://cs.unu.edu/sc2r#AttitudinalMeasure</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Attitudinal Measures are attitudes that individuals can adopt in the context of preparing and planning for adverse cyber incidents.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AnticipateMeasure">AnticipateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AnticipateMeasure">sc2r:AnticipateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#BeVigilant">BeVigilant</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#YouAreNotImmune">YouAreNotImmune</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#BeSuspicious">BeSuspicious</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#BeCritical">BeCritical</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#BeVigilant">sc2r:BeVigilant</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#YouAreNotImmune">sc2r:YouAreNotImmune</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#BeSuspicious">sc2r:BeSuspicious</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#BeCritical">sc2r:BeCritical</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -996,17 +1059,17 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#TechnologicalThreat">TechnologicalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TechnologicalThreat">sc2r:TechnologicalThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Spoofing">Spoofing</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#AccountHijacking">AccountHijacking</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Masquerading">Masquerading</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Fabrication">Fabrication</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#UnauthorizedAccess">UnauthorizedAccess</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#UnauthorizedAccess">sc2r:UnauthorizedAccess</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Masquerading">sc2r:Masquerading</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Fabrication">sc2r:Fabrication</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Spoofing">sc2r:Spoofing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AccountHijacking">sc2r:AccountHijacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1027,17 +1090,17 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#TechnologicalThreat">TechnologicalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TechnologicalThreat">sc2r:TechnologicalThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#LostDevices">LostDevices</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Disruption">Disruption</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DenialofService">DenialOfService</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#LostCredentials">LostCredentials</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Ransomware">Ransomware</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#LostCredentials">sc2r:LostCredentials</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Disruption">sc2r:Disruption</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DenialofService">sc2r:DenialOfService</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Ransomware">sc2r:Ransomware</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#LostDevices">sc2r:LostDevices</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1050,16 +1113,22 @@
                 <td><code>http://cs.unu.edu/sc2r#Awareness</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Awareness measures enhance the ability of individuals to comprehend their cybersecurity landscape.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AnticipateMeasure">AnticipateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AnticipateMeasure">sc2r:AnticipateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#AssetInventory">AssetInventory</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DigitalFootprint">DigitalFootprint</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DigitalFootprintManagement">sc2r:DigitalFootprint</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AssetInventoryManagement">sc2r:AssetInventory</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1080,7 +1149,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialEngineering">SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialEngineering">sc2r:SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1101,7 +1170,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychographicHacking">PsychographicHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychographicHacking">sc2r:PsychographicHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1114,9 +1183,16 @@
                 <td><code>http://cs.unu.edu/sc2r#BeCritical</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>This attitute emphasizes the need to be critical in online engagements. </p>
+<p>For example being critical with regards to news and content consumed online.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AttitudinalMeasure">AttitudinalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AttitudinalMeasure">sc2r:AttitudinalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1129,9 +1205,16 @@
                 <td><code>http://cs.unu.edu/sc2r#BeSuspicious</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>This attitute emphasizes the importance of being suspicious online.</p>
+<p>For example, being suspicious of unsolicited communication.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AttitudinalMeasure">AttitudinalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AttitudinalMeasure">sc2r:AttitudinalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1144,9 +1227,15 @@
                 <td><code>http://cs.unu.edu/sc2r#BeVigilant</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>This attitute emphasizes the need to be vigilant online.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AttitudinalMeasure">AttitudinalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AttitudinalMeasure">sc2r:AttitudinalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1167,7 +1256,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PersonalData">PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PersonalData">sc2r:PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1188,7 +1277,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Credential">Credential</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Credential">sc2r:Credential</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1209,7 +1298,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHacking">SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHacking">sc2r:SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1224,7 +1313,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ReputationalHarm">ReputationalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ReputationalHarm">sc2r:ReputationalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1239,14 +1328,14 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalHarm">PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalHarm">sc2r:PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#BodilyPain">Pain</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SelfHarm">SelfHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SelfHarm">sc2r:SelfHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#BodilyPain">sc2r:Pain</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1267,7 +1356,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SexualAbuseThreat">SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SexualAbuseThreat">sc2r:SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1280,9 +1369,15 @@
                 <td><code>http://cs.unu.edu/sc2r#CapacityBuilding</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>The capacity-building measures involve increasing the level of nominal cyber functioning of individuals.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AdaptMeasure">AdaptMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AdaptMeasure">sc2r:AdaptMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1303,7 +1398,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Phishing">Phishing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Phishing">sc2r:Phishing</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1324,7 +1419,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#InstitutionalThreat">InstitutionalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InstitutionalThreat">sc2r:InstitutionalThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1345,7 +1440,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHacking">SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHacking">sc2r:SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1366,40 +1461,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialThreat">SocialThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity class" id="CognitiveandInfluenceThreat">
-        <h3>Cognitive and Influence Threat<sup title="class" class="sup-c">c</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td><code>http://cs.unu.edu/sc2r#CognitiveAndInfluenceThreat</code></td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    <p>Cognitive and Influece Threats are adverse incidents that compromise or affect individuals cognitive functioning. They include efforts to influence the perceptions, behaviour, and decisions of individuals for the benefit of others.</p>
-                </td>
-            </tr>
-            <tr>
-                <th>Super-classes</th>
-                <td>
-                    <a href="#PersonalThreat">PersonalThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                </td>
-            </tr>
-            <tr>
-                <th>Sub-classes</th>
-                <td>
-                    <a href="#Malinformation">Malinformation</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Disinformation">Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Misinformation">Misinformation</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#InformationOverload">InformationOverload</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#PsychographicHacking">PsychographicHacking</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#InformationFlooding">InformationFlooding</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DigitalHoarding">DigitalHoarding</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InfluenceThreat">sc2r:InfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1414,7 +1476,39 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="CognitiveThreat">
+        <h3>Cognitive Threat<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://cs.unu.edu/sc2r#CognitiveThreat</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Cognitive and Influece Threats are adverse incidents that compromise or affect individuals cognitive functioning. They include efforts to influence the perceptions, behaviour, and decisions of individuals for the benefit of others.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="#IndividualandPersonalThreat">sc2r:PersonalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Disinformation">sc2r:Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DigitalHoarding">sc2r:DigitalHoarding</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InformationFlooding">sc2r:InformationFlooding</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InformationOverload">sc2r:InformationOverload</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Misinformation">sc2r:Misinformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Malinformation">sc2r:Malinformation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1429,7 +1523,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EconomicHarm">EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EconomicHarm">sc2r:EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1444,7 +1538,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalHarm">PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalHarm">sc2r:PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1465,7 +1559,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ComputingAsset">ComputingAsset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ComputingAsset">sc2r:ComputingAsset</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1480,16 +1574,16 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalResource">PhysicalResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalResource">sc2r:PhysicalResource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Computer">Computer</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Laptop">Laptop</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#MobileDevice">MobileDevice</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Server">Server</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Laptop">sc2r:Laptop</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Computer">sc2r:Computer</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MobileDevice">sc2r:MobileDevice</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Server">sc2r:Server</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1510,19 +1604,19 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#TechnologicalThreat">TechnologicalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TechnologicalThreat">sc2r:TechnologicalThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Interception">Interception</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#InadvertentInformationDisclosure">InadvertentDisclosure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DataBreach">DataBreach</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Reconnaissance">Reconnaissance</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Skimming">Skimming</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DataLeak">DataLeak</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Doxing">Doxing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DataBreach">sc2r:DataBreach</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Doxing">sc2r:Doxing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InadvertentInformationDisclosure">sc2r:InadvertentDisclosure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DataLeak">sc2r:DataLeak</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Skimming">sc2r:Skimming</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Interception">sc2r:Interception</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Reconnaissance">sc2r:Reconnaissance</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1537,7 +1631,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHarm">SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHarm">sc2r:SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1550,9 +1644,15 @@
                 <td><code>http://cs.unu.edu/sc2r#ConfrontThreat</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Confronting the threat is an engage response that involves directly confronting the cyber threat. For examples, in the case of socio-technical threats, this involves direct engagement with the threat actors.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EngageMeasure">EngageMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EngageMeasure">sc2r:EngageMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1567,13 +1667,13 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Misled">Misled</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Misled">sc2r:Misled</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1588,7 +1688,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualandPersonalVulnerability">Individual</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalVulnerability">sc2r:Individual</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1609,7 +1709,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Violation">Violation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Violation">sc2r:Violation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1624,7 +1724,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalHarm">PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalHarm">sc2r:PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1645,15 +1745,15 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IdentifyingData">IdentifyingData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IdentifyingData">sc2r:IdentifyingData</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#BiometricToken">BiometricToken</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#PhysicalToken">PhysicalToken</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DataToken">DataToken</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalToken">sc2r:PhysicalToken</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DataToken">sc2r:DataToken</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#BiometricToken">sc2r:BiometricToken</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1668,7 +1768,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualandPersonalVulnerability">Individual</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalVulnerability">sc2r:Individual</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1689,7 +1789,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AbuseThreat">Abuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AbuseThreat">sc2r:Abuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1710,7 +1810,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AbuseThreat">Abuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AbuseThreat">sc2r:Abuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1731,7 +1831,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AbuseThreat">Abuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AbuseThreat">sc2r:Abuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1752,7 +1852,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#FileResource">File</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#FileResource">sc2r:File</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1773,7 +1873,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IntegrityThreat">IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IntegrityThreat">sc2r:IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1788,7 +1888,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHarm">SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHarm">sc2r:SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1803,7 +1903,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ReputationalHarm">ReputationalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ReputationalHarm">sc2r:ReputationalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1824,7 +1924,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychographicHacking">PsychographicHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychographicHacking">sc2r:PsychographicHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1845,14 +1945,14 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#DigitalResource">DigitalResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DigitalResource">sc2r:DigitalResource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#FileResource">File</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#PersonalData">PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PersonalData">sc2r:PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#FileResource">sc2r:File</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1873,7 +1973,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ConfidentialityThreat">ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ConfidentialityThreat">sc2r:ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1894,7 +1994,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IntegrityThreat">IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IntegrityThreat">sc2r:IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1915,7 +2015,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IntegrityThreat">IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IntegrityThreat">sc2r:IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1936,7 +2036,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ConfidentialityThreat">ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ConfidentialityThreat">sc2r:ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1949,9 +2049,15 @@
                 <td><code>http://cs.unu.edu/sc2r#DataRecovery</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Data recovery measures involve the recovery of data resources, from data backups, to enable continued use of a data after an adverse cyber incident, such as data corruption and loss.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#RecoverMeasure">RecoverMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RecoverMeasure">sc2r:RecoverMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1964,9 +2070,15 @@
                 <td><code>http://cs.unu.edu/sc2r#DataRedundancy</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Data redundancy measure involves having data backups and redundant data storage.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#RedundancyMeasure">RedundancyMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RedundancyMeasure">sc2r:RedundancyMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1987,7 +2099,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Credential">Credential</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Credential">sc2r:Credential</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2002,7 +2114,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#DigitalVulnerability">Digital</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DigitalVulnerability">sc2r:Digital</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2023,15 +2135,15 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Disinformation">Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Disinformation">sc2r:Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Forging">Forging</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Shilling">Shilling</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#PotemkinVillageEvidence">PotemkinVillageEvidence</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Forging">sc2r:Forging</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PotemkinVillageEvidence">sc2r:PotemkinVillageEvidence</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Shilling">sc2r:Shilling</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2052,7 +2164,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PersonalData">PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PersonalData">sc2r:PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2073,7 +2185,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AvailabilityThreat">AvailabilityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AvailabilityThreat">sc2r:AvailabilityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2088,7 +2200,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2103,7 +2215,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalHarm">PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalHarm">sc2r:PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2116,9 +2228,15 @@
                 <td><code>http://cs.unu.edu/sc2r#DeviceIdentification</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Device authentication is the process is verifying the identity of the devices that are used to connect to network resources.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Identification">Identification</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Identification">sc2r:Identification</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2133,7 +2251,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualandPersonalVulnerability">Individual</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalVulnerability">sc2r:Individual</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2148,30 +2266,36 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Vulnerability">Vulnerability</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Vulnerability">sc2r:Vulnerability</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#SoftwareVulnerability">SoftwareVulnerability</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DataVulnerability">DataVulnerability</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#NetworkVulnerability">NetworkVulnerability</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DataVulnerability">sc2r:DataVulnerability</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SoftwareVulnerability">sc2r:SoftwareVulnerability</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#NetworkVulnerability">sc2r:NetworkVulnerability</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
-    <div class="entity class" id="DigitalFootprint">
-        <h3>Digital Footprint<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="DigitalFootprintManagement">
+        <h3>Digital Footprint Management<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>URI</th>
                 <td><code>http://cs.unu.edu/sc2r#DigitalFootprint</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Digital Footprint management involves understanding the digital resources, including the trail of data, that is involved and used in individuals Cyber functionings.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Awareness">Awareness</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Awareness">sc2r:Awareness</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2192,7 +2316,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#CognitiveandInfluenceThreat">CognitiveAndInfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#CognitiveThreat">sc2r:CognitiveThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2213,14 +2337,14 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Resource">Resource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Resource">sc2r:Resource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Data">Data</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Software">Software</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Data">sc2r:Data</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Software">sc2r:Software</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2235,7 +2359,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2250,13 +2374,14 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>Addictions... denial of service, etc</p>
+                    <p>The Disconnect measure involves removal of connection and interaction between the threat and the affected cyber resource. While the threat remains, the affected resource is removed from the attack situation.</p>
+<p>For example, in the case of a Remote Execution attack or Denial of Service attack, this could include physical disconnection of affected devices from the network. In the case of socio-technical threats, such as cyberbullying, it could include disconnecting from the relevant platform.</p>
                 </td>
             </tr>
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EngageMeasure">EngageMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EngageMeasure">sc2r:EngageMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2271,7 +2396,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2292,19 +2417,19 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#CognitiveandInfluenceThreat">CognitiveAndInfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#CognitiveThreat">sc2r:CognitiveThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#InfluenceOperation">InfluenceOperation</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Deceit">Deceit</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#OpposingInformation">OpposingInformation</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#MalignRhetoric">MalignRhetoric</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#EngineeredContent">EngineeredContent</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Propaganda">Propaganda</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#FakeNews">FakeNews</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EngineeredContent">sc2r:EngineeredContent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MalignRhetoric">sc2r:MalignRhetoric</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Propaganda">sc2r:Propaganda</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#FakeNews">sc2r:FakeNews</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Deceit">sc2r:Deceit</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InfluenceOperation">sc2r:InfluenceOperation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#OpposingInformation">sc2r:OpposingInformation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2319,7 +2444,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EconomicHarm">EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EconomicHarm">sc2r:EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2334,7 +2459,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EconomicHarm">EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EconomicHarm">sc2r:EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2355,7 +2480,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AvailabilityThreat">AvailabilityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AvailabilityThreat">sc2r:AvailabilityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2370,7 +2495,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2391,7 +2516,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ConfidentialityThreat">ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ConfidentialityThreat">sc2r:ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2412,7 +2537,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Interception">Interception</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Interception">sc2r:Interception</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2427,22 +2552,22 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Harm">Harm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Harm">sc2r:Harm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#FinePayment">Fine</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ScamCost">ScamCost</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ExtorsionPayment">ExtorsionPayment</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#LossofWork">LossOfWork</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#CompensationPayment">CompensationPayment</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#TimeWasted">TimeWasted</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#MitigationCost">MitigationCost</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DisruptedIncome">DisruptedIncome</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#TheftofFinances">TheftOfFinances</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DisruptedWork">DisruptedWork</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#CompensationPayment">sc2r:CompensationPayment</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#FinePayment">sc2r:Fine</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TheftofFinances">sc2r:TheftOfFinances</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ScamCost">sc2r:ScamCost</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ExtorsionPayment">sc2r:ExtorsionPayment</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#LossofWork">sc2r:LossOfWork</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MitigationCost">sc2r:MitigationCost</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DisruptedWork">sc2r:DisruptedWork</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DisruptedIncome">sc2r:DisruptedIncome</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TimeWasted">sc2r:TimeWasted</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2463,7 +2588,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#InfrastructureResource">InfrastructureResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InfrastructureResource">sc2r:InfrastructureResource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2476,9 +2601,15 @@
                 <td><code>http://cs.unu.edu/sc2r#EmailHygiene</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Email hygiene are measures and practices that contribute to safe and secure use of email.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#WebHygiene">WebHygiene</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#WebHygiene">sc2r:WebHygiene</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2493,7 +2624,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2506,20 +2637,24 @@
                 <td><code>http://cs.unu.edu/sc2r#EngageMeasure</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Engage measures involve direct handling of and engagement with the adverse cyber incident.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AbsorbMeasure">AbsorbMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AbsorbMeasure">sc2r:AbsorbMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#DisconnectMeasure">DisconnectMeasure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#MaliciousContentRemoval">MaliciousContentRemoval</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#IsolateMeasure">IsolateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#MaliciousSoftwareRemoval">MaliciousSoftwareRemoval</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#MaliciousContactRemoval">MaliciousContactRemoval</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ConfronttheThreat">ConfrontThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DisconnectMeasure">sc2r:DisconnectMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IsolateMeasure">sc2r:IsolateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RemovalMeasure">sc2r:RemovalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ConfronttheThreat">sc2r:ConfrontThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2540,7 +2675,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Disinformation">Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Disinformation">sc2r:Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2561,14 +2696,14 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#NaturalDisasterThreat">NaturalDisaster</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#InstitutionalThreat">InstitutionalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InstitutionalThreat">sc2r:InstitutionalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#NaturalDisasterThreat">sc2r:NaturalDisaster</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2581,9 +2716,15 @@
                 <td><code>http://cs.unu.edu/sc2r#Evolve</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>The evolve measure involves an adaptation in the use of cyber resource through the adoption of complementary resources that enable higher nominal cyber functioning.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AdaptMeasure">AdaptMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AdaptMeasure">sc2r:AdaptMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2598,7 +2739,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalHarm">PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalHarm">sc2r:PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2619,7 +2760,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Rights">Right</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Rights">sc2r:Right</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2640,7 +2781,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#StorageAsset">StorageAsset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#StorageAsset">sc2r:StorageAsset</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2653,16 +2794,22 @@
                 <td><code>http://cs.unu.edu/sc2r#ExternalSupport</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>External support involves receiving external input and support towards recovering and restoring cyber functioning.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#RecoverMeasure">RecoverMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RecoverMeasure">sc2r:RecoverMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#SocialSupport">SocialSupport</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ProfessionalSupport">ProfessionalSupport</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ProfessionalSupport">sc2r:ProfessionalSupport</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialSupport">sc2r:SocialSupport</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2677,7 +2824,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EconomicHarm">EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EconomicHarm">sc2r:EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2698,7 +2845,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialThreat">SocialThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InfluenceThreat">sc2r:InfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2719,7 +2866,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AuthenticationThreat">AuthenticationThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AuthenticationThreat">sc2r:AuthenticationThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2732,9 +2879,16 @@
                 <td><code>http://cs.unu.edu/sc2r#Fact-checking</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Fact-checking involves establishing the truth and validating the facts behind a specific adverse incident. </p>
+<p>In the case of socio-technical threats such as misinformation attacks, fact-checking involves establishing the veracity of the information consumed. In the case of technical threat, it would involve understanding the documenting the experience adverse incident.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#RecoverMeasure">RecoverMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RecoverMeasure">sc2r:RecoverMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2747,9 +2901,15 @@
                 <td><code>http://cs.unu.edu/sc2r#FailureDetection</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Failure detection is the monitoring measures that involves checking for the failure in the operation of specific cyber resources.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ThreatMonitoringMeasure">ThreatMonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ThreatMonitoringMeasure">sc2r:ThreatMonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2770,7 +2930,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Scam">Scam</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Scam">sc2r:Scam</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2791,7 +2951,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Disinformation">Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Disinformation">sc2r:Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2806,7 +2966,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualandPersonalVulnerability">Individual</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalVulnerability">sc2r:Individual</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2821,7 +2981,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2842,13 +3002,13 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Data">Data</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Data">sc2r:Data</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#CryptoCurrency">CyptoCurrency</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#CryptoCurrency">sc2r:CyptoCurrency</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2869,7 +3029,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IdentifyingData">IdentifyingData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IdentifyingData">sc2r:IdentifyingData</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2884,7 +3044,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EconomicHarm">EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EconomicHarm">sc2r:EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2905,7 +3065,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MalignRhetoric">MalignRhetoric</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MalignRhetoric">sc2r:MalignRhetoric</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2918,9 +3078,15 @@
                 <td><code>http://cs.unu.edu/sc2r#Firewall</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Firewall is a mechanisms for allowing and denying access to specific network resources.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AccessControl">AccessControl</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AccessControl">sc2r:AccessControl</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2941,7 +3107,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AbuseThreat">Abuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AbuseThreat">sc2r:Abuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2962,7 +3128,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHacking">SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHacking">sc2r:SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2983,7 +3149,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Deceit">Deceit</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Deceit">sc2r:Deceit</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3004,7 +3170,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialThreat">SocialThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TheftThreat">sc2r:TheftThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3019,7 +3185,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3040,7 +3206,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MalignRhetoric">MalignRhetoric</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MalignRhetoric">sc2r:MalignRhetoric</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3055,7 +3221,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3070,7 +3236,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualandPersonalVulnerability">Individual</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalVulnerability">sc2r:Individual</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3091,7 +3257,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SexualAbuseThreat">SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SexualAbuseThreat">sc2r:SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3106,7 +3272,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualandPersonalVulnerability">Individual</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalVulnerability">sc2r:Individual</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3121,7 +3287,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3136,7 +3302,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalVulnerability">Physical</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalVulnerability">sc2r:Physical</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3157,25 +3323,25 @@
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#PhysicalHarm">PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SocialHarm">SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ReputationalHarm">ReputationalHarm</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#EconomicHarm">EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EconomicHarm">sc2r:EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ReputationalHarm">sc2r:ReputationalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalHarm">sc2r:PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHarm">sc2r:SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="#isResultOf">isResultOf</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#canBeResultOf">canBeResultOf</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isResultOf">sc2r:isResultOf</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#canBeResultOf">sc2r:canBeResultOf</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="#canResultIn">canResultIn</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#resultsIn">resultsIn</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#canResultIn">sc2r:canResultIn</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#resultsIn">sc2r:resultsIn</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3190,7 +3356,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualandPersonalVulnerability">Individual</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalVulnerability">sc2r:Individual</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3211,7 +3377,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#InfluenceOperation">InfluenceOperation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InfluenceOperation">sc2r:InfluenceOperation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3224,19 +3390,25 @@
                 <td><code>http://cs.unu.edu/sc2r#Identification</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Identification is a prevention measure that involves confirming claimed identity online.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PreventionMeasure">PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PreventionMeasure">sc2r:PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#MutualAuthentication">MutualAuthentication</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#MultifactorAuthentication">MultiFactorAuthentication</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#PasswordManagement">PasswordManagement</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#UserIdentification">UserIdentification</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DeviceIdentification">DeviceIdentification</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MutualAuthentication">sc2r:MutualAuthentication</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PasswordManagement">sc2r:PasswordManagement</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DeviceIdentification">sc2r:DeviceIdentification</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MultifactorAuthentication">sc2r:MultiFactorAuthentication</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#UserIdentification">sc2r:UserIdentification</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3257,14 +3429,14 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PersonalData">PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PersonalData">sc2r:PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Credential">Credential</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#FinancialData">FinancialData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Credential">sc2r:Credential</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#FinancialData">sc2r:FinancialData</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3285,7 +3457,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualPersonalResource">IndividualResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualPersonalResource">sc2r:IndividualResource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3306,7 +3478,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PersonalThreat">PersonalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TheftThreat">sc2r:TheftThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3321,7 +3493,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3336,7 +3508,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHarm">SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHarm">sc2r:SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3351,7 +3523,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualandPersonalVulnerability">Individual</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalVulnerability">sc2r:Individual</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3372,7 +3544,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ConfidentialityThreat">ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ConfidentialityThreat">sc2r:ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3393,16 +3565,16 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Malinformation">Malinformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Malinformation">sc2r:Malinformation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#OffensiveLanguage">OffensiveLanguage</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Profanity">Profanity</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#VoilentContent">Violence</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Pornography">Pornography</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#OffensiveLanguage">sc2r:OffensiveLanguage</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#VoilentContent">sc2r:Violence</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Pornography">sc2r:Pornography</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Profanity">sc2r:Profanity</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3415,9 +3587,15 @@
                 <td><code>http://cs.unu.edu/sc2r#IncidentReporting</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Incident reporting is the formal documentation and reporting of adverse cyber incidents that are experienced by individuals.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ReportingMeasure">Reporting</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ReportingMeasure">sc2r:Reporting</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3430,9 +3608,16 @@
                 <td><code>http://cs.unu.edu/sc2r#IncreaseResources</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>This measure involves increasing resources that are allocated towards maintaining the desired level of cyber functioning and supplementing the affected resources. </p>
+<p>For example, in cases where the adverse cyber incident deminished the quality of functioning of specific cyber resources, this measure would involve adding more resources (e.g., computing resources) to enable continue desired functioning.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#WithstandMeasure">WithstandMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#WithstandMeasure">sc2r:WithstandMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3447,22 +3632,22 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Vulnerability">Vulnerability</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Vulnerability">sc2r:Vulnerability</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Guilt">Guilt</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Greed">Greed</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Helpfulness">Helpfulness</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Couriosity">Curiosity</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Fear">Fear</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Conscientiousness">Conscientiousness</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Sympathy">Sympathy</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DiffusionofResponsibility">DiffusionOfResponsibility</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Impulsiveness">Impulsiveness</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Urgency">Urgency</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DiffusionofResponsibility">sc2r:DiffusionOfResponsibility</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Impulsiveness">sc2r:Impulsiveness</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Helpfulness">sc2r:Helpfulness</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Fear">sc2r:Fear</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Greed">sc2r:Greed</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Conscientiousness">sc2r:Conscientiousness</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Couriosity">sc2r:Curiosity</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Urgency">sc2r:Urgency</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Guilt">sc2r:Guilt</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Sympathy">sc2r:Sympathy</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3483,16 +3668,16 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Resource">Resource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Resource">sc2r:Resource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Agency">Agency</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SocialCapitalResource">SocialCapital</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Rights">Right</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Identity">Identity</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialCapitalResource">sc2r:SocialCapital</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Rights">sc2r:Right</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Identity">sc2r:Identity</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Agency">sc2r:Agency</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3507,7 +3692,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalHarm">PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalHarm">sc2r:PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3528,15 +3713,40 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Disinformation">Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Disinformation">sc2r:Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#HumorandMeme">HumorAndMeme</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Parody">Parody</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Satire">Satire</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Satire">sc2r:Satire</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#HumorandMeme">sc2r:HumorAndMeme</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Parody">sc2r:Parody</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="InfluenceThreat">
+        <h3>Influence Threat<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://cs.unu.edu/sc2r#InfluenceThreat</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="#IndividualandPersonalThreat">sc2r:PersonalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#PsychographicHacking">sc2r:PsychographicHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Coercion">sc2r:Coercion</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Extortion">sc2r:Extortion</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Scareware">sc2r:Scareware</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialEngineering">sc2r:SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3557,7 +3767,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Rights">Right</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Rights">sc2r:Right</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3578,7 +3788,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#CognitiveandInfluenceThreat">CognitiveAndInfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#CognitiveThreat">sc2r:CognitiveThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3599,7 +3809,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#CognitiveandInfluenceThreat">CognitiveAndInfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#CognitiveThreat">sc2r:CognitiveThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3620,7 +3830,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#RighttoPrivacy">Privacy</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoPrivacy">sc2r:Privacy</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3641,14 +3851,14 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Resource">Resource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Resource">sc2r:Resource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Electricity">Electricity</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#InternetConnectivity">InternetConnectivity</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Electricity">sc2r:Electricity</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InternetConnectivity">sc2r:InternetConnectivity</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3669,15 +3879,15 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EnvironmentalThreat">EnvironmentalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EnvironmentalThreat">sc2r:EnvironmentalThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Violation">Violation</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Censorship">Censorship</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Surveillance">Surveillance</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Censorship">sc2r:Censorship</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Surveillance">sc2r:Surveillance</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Violation">sc2r:Violation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3698,21 +3908,21 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#TechnologicalThreat">TechnologicalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TechnologicalThreat">sc2r:TechnologicalThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Vandalism">Vandalism</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#RemoteCodeExecution">RemoteExecution</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Damage">Damage</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Malfunction">Malfunction</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DataCorruption">DataCorruption</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Misconfiguration">Misconfiguration</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Replay">Replay</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DataError">DataError</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Malware">Malware</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Replay">sc2r:Replay</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Misconfiguration">sc2r:Misconfiguration</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DataCorruption">sc2r:DataCorruption</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Damage">sc2r:Damage</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DataError">sc2r:DataError</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RemoteCodeExecution">sc2r:RemoteExecution</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Malware">sc2r:Malware</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Malfunction">sc2r:Malfunction</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Vandalism">sc2r:Vandalism</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3733,13 +3943,13 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ConfidentialityThreat">ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ConfidentialityThreat">sc2r:ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Eavesdropping">Eavesdropping</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Eavesdropping">sc2r:Eavesdropping</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3760,7 +3970,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#InfrastructureResource">InfrastructureResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InfrastructureResource">sc2r:InfrastructureResource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3781,7 +3991,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PrivacyThreat">PrivacyThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PrivacyThreat">sc2r:PrivacyThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3794,9 +4004,15 @@
                 <td><code>http://cs.unu.edu/sc2r#IntrusionDetection</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Intrusion detection involves monitoring and checking for unauthorized access to cyber resources including networking resources.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ThreatMonitoringMeasure">ThreatMonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ThreatMonitoringMeasure">sc2r:ThreatMonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3811,13 +4027,14 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>Either from social media or isolate the infected computer etc</p>
+                    <p>The isolate measure involves isolating the affected cyber resources from the connection with the threat. </p>
+<p>While related to Disconnect measures, isolation measures involve the continual operation of the cyber resources in an isolated context.</p>
                 </td>
             </tr>
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EngageMeasure">EngageMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EngageMeasure">sc2r:EngageMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3832,22 +4049,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHarm">SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity class" id="KeyPrinciples">
-        <h3>Key Principles<sup title="class" class="sup-c">c</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td><code>http://cs.unu.edu/sc2r#KeyPrinciples</code></td>
-            </tr>
-            <tr>
-                <th>Super-classes</th>
-                <td>
-                    <a href="#Training">Training</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHarm">sc2r:SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3868,7 +4070,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MentalFaculties">MentalFaculties</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MentalFaculties">sc2r:MentalFaculties</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3889,7 +4091,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ComputingAsset">ComputingAsset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ComputingAsset">sc2r:ComputingAsset</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3910,7 +4112,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHacking">SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHacking">sc2r:SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3923,9 +4125,15 @@
                 <td><code>http://cs.unu.edu/sc2r#LeastPrivilege</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Least privilege is the principle and mechanism of giving the minimum required privileges necessary for performing specific functions.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AccessControl">AccessControl</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AccessControl">sc2r:AccessControl</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3946,7 +4154,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PersonalData">PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PersonalData">sc2r:PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3959,9 +4167,15 @@
                 <td><code>http://cs.unu.edu/sc2r#LoggingAndAudit</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Logging and audit is a monitoring measures that involves keeping a record of relevant cyber activities, events, as well as states and operations of cyber resources.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MonitoringMeasure">MonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MonitoringMeasure">sc2r:MonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3976,7 +4190,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -3991,7 +4205,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalHarm">PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalHarm">sc2r:PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4006,7 +4220,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EconomicHarm">EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EconomicHarm">sc2r:EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4027,7 +4241,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AvailabilityThreat">AvailabilityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AvailabilityThreat">sc2r:AvailabilityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4048,7 +4262,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AvailabilityThreat">AvailabilityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AvailabilityThreat">sc2r:AvailabilityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4069,7 +4283,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SexualAbuseThreat">SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SexualAbuseThreat">sc2r:SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4084,7 +4298,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4099,7 +4313,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4120,7 +4334,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SexualAbuseThreat">SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SexualAbuseThreat">sc2r:SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4141,7 +4355,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IntegrityThreat">IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IntegrityThreat">sc2r:IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4154,9 +4368,15 @@
                 <td><code>http://cs.unu.edu/sc2r#MaliciousContactRemoval</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>This measures involves the removal and elimination of contact with an individual who is a threat actor.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EngageMeasure">EngageMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RemovalMeasure">sc2r:RemovalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4169,9 +4389,15 @@
                 <td><code>http://cs.unu.edu/sc2r#MaliciousContentRemoval</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>This measures involves the removal and elimination of content that is a cause of a cyber threat.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EngageMeasure">EngageMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RemovalMeasure">sc2r:RemovalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4184,9 +4410,15 @@
                 <td><code>http://cs.unu.edu/sc2r#MaliciousSoftwareDetection</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Malicious software detection involves scanning computing equipment to check for the presence of malicious software.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ThreatMonitoringMeasure">ThreatMonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ThreatMonitoringMeasure">sc2r:ThreatMonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4199,9 +4431,15 @@
                 <td><code>http://cs.unu.edu/sc2r#MaliciousSoftwareRemoval</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>This measures involves the removal and elimination of software, usually malware, that is a source of a cyber threat.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EngageMeasure">EngageMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RemovalMeasure">sc2r:RemovalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4222,17 +4460,17 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Disinformation">Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Disinformation">sc2r:Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#StrawmanAttack">Strawman</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#GishGalloping">GishGalloping</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#WhatAboutism">WhatAboutism</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Firehosing">Firehosing</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#TransferInformationAttack">Transfer</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Firehosing">sc2r:Firehosing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#GishGalloping">sc2r:GishGalloping</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#WhatAboutism">sc2r:WhatAboutism</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#StrawmanAttack">sc2r:Strawman</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TransferInformationAttack">sc2r:Transfer</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4253,13 +4491,13 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#CognitiveandInfluenceThreat">CognitiveAndInfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#CognitiveThreat">sc2r:CognitiveThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#InappropriateContent">InappropriateContent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InappropriateContent">sc2r:InappropriateContent</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4280,7 +4518,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IntegrityThreat">IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IntegrityThreat">sc2r:IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4301,7 +4539,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AuthenticationThreat">AuthenticationThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AuthenticationThreat">sc2r:AuthenticationThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4314,17 +4552,24 @@
                 <td><code>http://cs.unu.edu/sc2r#MediationMeasures</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Mediation measures are measures that are put in place but other individuals to limit the impact of adverse cyber incidents.</p>
+<p>For example, guardians and parents can put in place mediation measures that limit the negative outcomes of online gaming.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PrepareMeasure">PrepareMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PrepareMeasure">sc2r:PrepareMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#TechnicalMediation">TechnicalMediation</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ActiveMediation">ActiveMediation</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#RestrictiveMediation">RestrictiveMediation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RestrictiveMediation">sc2r:RestrictiveMediation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ActiveMediation">sc2r:ActiveMediation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TechnicalMediation">sc2r:TechnicalMediation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4345,15 +4590,15 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Agency">Agency</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Agency">sc2r:Agency</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Skills">Skills</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Motivation">Motivation</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#KnowledgeResource">Knowledge</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#KnowledgeResource">sc2r:Knowledge</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Skills">sc2r:Skills</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Motivation">sc2r:Motivation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4374,7 +4619,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychographicHacking">PsychographicHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychographicHacking">sc2r:PsychographicHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4395,7 +4640,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IntegrityThreat">IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IntegrityThreat">sc2r:IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4416,13 +4661,13 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#CognitiveandInfluenceThreat">CognitiveAndInfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#CognitiveThreat">sc2r:CognitiveThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#MisleadingInformation">MisleadingInformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MisleadingInformation">sc2r:MisleadingInformation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4443,7 +4688,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MisleadingInformation">MisleadingInformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MisleadingInformation">sc2r:MisleadingInformation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4464,13 +4709,13 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Misinformation">Misinformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Misinformation">sc2r:Misinformation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#MisleadingAdvertising">MisleadingAdvertising</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MisleadingAdvertising">sc2r:MisleadingAdvertising</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4485,7 +4730,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Confusion">Confusion</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Confusion">sc2r:Confusion</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4500,7 +4745,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4515,7 +4760,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EconomicHarm">EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EconomicHarm">sc2r:EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4536,7 +4781,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ComputingAsset">ComputingAsset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ComputingAsset">sc2r:ComputingAsset</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4549,16 +4794,22 @@
                 <td><code>http://cs.unu.edu/sc2r#MonitoringMeasure</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Monitoring measure involves observing and checking the state of individual cyber functions as well as the operation of relevant cyber resources.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PrepareMeasure">PrepareMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PrepareMeasure">sc2r:PrepareMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#ThreatMonitoringMeasure">ThreatMonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#LoggingandAudit">LoggingAndAudit</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#LoggingandAudit">sc2r:LoggingAndAudit</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ThreatMonitoringMeasure">sc2r:ThreatMonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4579,7 +4830,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MentalFaculties">MentalFaculties</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MentalFaculties">sc2r:MentalFaculties</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4592,9 +4843,15 @@
                 <td><code>http://cs.unu.edu/sc2r#MultiFactorAuthentication</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Multi-factor authentication is the process of using multiple authentication methods to verify claimed identity.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Identification">Identification</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Identification">sc2r:Identification</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4607,9 +4864,15 @@
                 <td><code>http://cs.unu.edu/sc2r#MutualAuthentication</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Mutual authentication is a process of two-way authentication between the communicating entities.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Identification">Identification</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Identification">sc2r:Identification</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4630,7 +4893,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EnvironmentalThreat">EnvironmentalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EnvironmentalThreat">sc2r:EnvironmentalThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4645,7 +4908,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4666,7 +4929,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalResource">PhysicalResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalResource">sc2r:PhysicalResource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4687,7 +4950,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#UnauthorizedAccess">UnauthorizedAccess</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#UnauthorizedAccess">sc2r:UnauthorizedAccess</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4700,9 +4963,15 @@
                 <td><code>http://cs.unu.edu/sc2r#NetworkRedundancy</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Network redundancy involves having redundant network connectivity to allow for alternative connection to the internet in cases where the primary connectivity is negatively affected by adverse cyber incidents.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#RedundancyMeasure">RedundancyMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RedundancyMeasure">sc2r:RedundancyMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4717,7 +4986,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#DigitalVulnerability">Digital</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DigitalVulnerability">sc2r:Digital</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4738,7 +5007,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#TechnologicalThreat">TechnologicalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TechnologicalThreat">sc2r:TechnologicalThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4759,7 +5028,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#InappropriateContent">InappropriateContent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InappropriateContent">sc2r:InappropriateContent</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4780,7 +5049,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Software">Software</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Software">sc2r:Software</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4801,7 +5070,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Rights">Right</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Rights">sc2r:Right</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4822,7 +5091,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Disinformation">Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Disinformation">sc2r:Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4837,7 +5106,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4852,7 +5121,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#BodilyInjury">BodilyInjury</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#BodilyInjury">sc2r:BodilyInjury</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4873,7 +5142,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHacking">SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHacking">sc2r:SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4894,7 +5163,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#InfluenceOperation">InfluenceOperation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InfluenceOperation">sc2r:InfluenceOperation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4907,9 +5176,15 @@
                 <td><code>http://cs.unu.edu/sc2r#PasswordManagement</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Password management is the use of password of authentication in a safe and secure manner.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Identification">Identification</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Identification">sc2r:Identification</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4930,7 +5205,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SexualAbuseThreat">SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SexualAbuseThreat">sc2r:SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -4951,25 +5226,25 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Data">Data</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Data">sc2r:Data</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#User-GeneratedContent">UserGeneratedContent</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ActivityData">ActivityData</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DemocraphicInformation">DemographicInformation</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SocialContact">SocialContact</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#LocationData">LocationData</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#BehavioralData">BehaviouralData</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#IdentifyingData">IdentifyingData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#User-GeneratedContent">sc2r:UserGeneratedContent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#LocationData">sc2r:LocationData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#BehavioralData">sc2r:BehaviouralData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DemocraphicInformation">sc2r:DemographicInformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IdentifyingData">sc2r:IdentifyingData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialContact">sc2r:SocialContact</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ActivityData">sc2r:ActivityData</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
-    <div class="entity class" id="PersonalThreat">
-        <h3>Personal Threat<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="IndividualandPersonalThreat">
+        <h3>Individual and Personal Threat<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -4984,15 +5259,17 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#PrivacyThreat">PrivacyThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#CognitiveandInfluenceThreat">CognitiveAndInfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#IdentityTheft">IdentityTheft</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TheftThreat">sc2r:TheftThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#CognitiveThreat">sc2r:CognitiveThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InfluenceThreat">sc2r:InfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PrivacyThreat">sc2r:PrivacyThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AbuseThreat">sc2r:Abuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5013,17 +5290,17 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialEngineering">SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialEngineering">sc2r:SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Catphishing">Catphishing</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#AnglerPhishing">AnglerPhishing</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SpearPhishing">SpearPhishing</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Smishing">Smishing</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Vishing">Vishing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Smishing">sc2r:Smishing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Catphishing">sc2r:Catphishing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AnglerPhishing">sc2r:AnglerPhishing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SpearPhishing">sc2r:SpearPhishing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Vishing">sc2r:Vishing</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5038,13 +5315,13 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Vulnerability">Vulnerability</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Vulnerability">sc2r:Vulnerability</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#HardwareVulnerability">HardwareVulnerability</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#HardwareVulnerability">sc2r:HardwareVulnerability</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5059,23 +5336,23 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Harm">Harm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Harm">sc2r:Harm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#ReducedPerformance">ReducedPerformance</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#AbusedHarm">Abused</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#TheftHarm">Theft</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Destroyed">Destroyed</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Unavailable">Unavailable</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Compromised">Compromised</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Infected">Infected</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Corrupted">Corrupted</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Exposed">Exposed</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#LossofLife">LossOfLife</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#BodilyInjury">BodilyInjury</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Compromised">sc2r:Compromised</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Unavailable">sc2r:Unavailable</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TheftHarm">sc2r:Theft</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#BodilyInjury">sc2r:BodilyInjury</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Exposed">sc2r:Exposed</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#LossofLife">sc2r:LossOfLife</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Corrupted">sc2r:Corrupted</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ReducedPerformance">sc2r:ReducedPerformance</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Destroyed">sc2r:Destroyed</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AbusedHarm">sc2r:Abused</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Infected">sc2r:Infected</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5096,7 +5373,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#RighttoPrivacy">Privacy</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoPrivacy">sc2r:Privacy</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5117,15 +5394,15 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Resource">Resource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Resource">sc2r:Resource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#ComputingAsset">ComputingAsset</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#NetworkEquipment">NetworkEquipment</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#StorageAsset">StorageAsset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ComputingAsset">sc2r:ComputingAsset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#StorageAsset">sc2r:StorageAsset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#NetworkEquipment">sc2r:NetworkEquipment</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5138,9 +5415,15 @@
                 <td><code>http://cs.unu.edu/sc2r#PhysicalRestriction</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>This is the measure for restricting and limiting access to physical resources.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AccessControl">AccessControl</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AccessControl">sc2r:AccessControl</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5161,7 +5444,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Credential">Credential</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Credential">sc2r:Credential</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5182,7 +5465,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#UnauthorizedAccess">UnauthorizedAccess</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#UnauthorizedAccess">sc2r:UnauthorizedAccess</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5203,7 +5486,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHacking">SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHacking">sc2r:SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5224,7 +5507,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHacking">SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHacking">sc2r:SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5245,7 +5528,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#InappropriateContent">InappropriateContent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InappropriateContent">sc2r:InappropriateContent</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5266,7 +5549,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Deceit">Deceit</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Deceit">sc2r:Deceit</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5279,18 +5562,25 @@
                 <td><code>http://cs.unu.edu/sc2r#PrepareMeasure</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Responses are framed around four resilience phases of Prepare, Absorb, Recover, and Adapt.</p>
+<p>The Prepare phase represents the baseline level of individuals’ cyber functioning during which Prepare measures are undertaken for facilitate responses in the subsequent phases.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Response">Response</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Response">sc2r:Response</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#AnticipateMeasure">AnticipateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#MediationMeasures">MediationMeasures</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#MonitoringMeasure">MonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#PreventionMeasure">PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AnticipateMeasure">sc2r:AnticipateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MonitoringMeasure">sc2r:MonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MediationMeasures">sc2r:MediationMeasures</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PreventionMeasure">sc2r:PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5311,7 +5601,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialEngineering">SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialEngineering">sc2r:SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5324,21 +5614,27 @@
                 <td><code>http://cs.unu.edu/sc2r#PreventionMeasure</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Prevention measures are put in place to limit and stop the occurance of specific cyber threats.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PrepareMeasure">PrepareMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PrepareMeasure">sc2r:PrepareMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#WebHygiene">WebHygiene</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#TrustedInfrastructure">TrustedInfrastructure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#TrustedSoftware">TrustedSoftware</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#AccessControl">AccessControl</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Identification">Identification</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#TrustedData">TrustedData</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#TrustedInformation">TrustedInformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Identification">sc2r:Identification</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TrustedData">sc2r:TrustedData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TrustedInformation">sc2r:TrustedInformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TrustedInfrastructure">sc2r:TrustedInfrastructure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AccessControl">sc2r:AccessControl</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TrustedSoftware">sc2r:TrustedSoftware</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#WebHygiene">sc2r:WebHygiene</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5360,16 +5656,17 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Rights">Right</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Rights">sc2r:Right</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#RighttoSocialPrivacy">SocialPrivacy</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#RighttoInformationPrivacy">InformationalPrivacy</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#RighttoPhysicalPrivacy">PhysicalPrivacy</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#RighttoPsychologicalPrivacy">PsychologicalPrivacy</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoPhysicalPrivacy">sc2r:PhysicalPrivacy</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoTerritorialPrivacy">sc2r:TerritorialPrivacy</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoPsychologicalPrivacy">sc2r:PsychologicalPrivacy</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoSocialPrivacy">sc2r:SocialPrivacy</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoInformationPrivacy">sc2r:InformationalPrivacy</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5390,16 +5687,16 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PersonalThreat">PersonalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalThreat">sc2r:PersonalThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#IntimacyThreat">IntimacyThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SolitudeThreat">SolitudeThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#AnonymityThreat">AnonymityThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ReserveThreat">ReserveThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IntimacyThreat">sc2r:IntimacyThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ReserveThreat">sc2r:ReserveThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AnonymityThreat">sc2r:AnonymityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SolitudeThreat">sc2r:SolitudeThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5420,7 +5717,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#InappropriateContent">InappropriateContent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InappropriateContent">sc2r:InappropriateContent</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5433,9 +5730,15 @@
                 <td><code>http://cs.unu.edu/sc2r#ProfessionalSupport</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>This is receiving professional input to assist in dealing with an adverse incident and recovering the lost cyber functioning.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ExternalSupport">ExternalSupport</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ExternalSupport">sc2r:ExternalSupport</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5456,7 +5759,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Disinformation">Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Disinformation">sc2r:Disinformation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5471,7 +5774,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5492,15 +5795,15 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#CognitiveandInfluenceThreat">CognitiveAndInfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InfluenceThreat">sc2r:InfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Microtargeting">Microtargeting</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DarkAdvertising">DarkAdvertising</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#BandwagonEffect">BandwagonEffect</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#BandwagonEffect">sc2r:BandwagonEffect</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Microtargeting">sc2r:Microtargeting</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DarkAdvertising">sc2r:DarkAdvertising</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5515,35 +5818,35 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Harm">Harm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Harm">sc2r:Harm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Embarrassed">Embarrassed</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Overwhelmed">Overwhelmed</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Confusion">Confusion</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Frustration">Frustration</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Prosecution">Prosecution</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#LowMorale">LowMorale</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Mistreatment">Mistreatment</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Addiction">Addiction</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#LossofConfidence">LossOfConfidence</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#FeelingUpset">FeelingUpset</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Discomfort">Discomfort</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Guilty">Guilty</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Distraction">Distraction</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Disempowerment">Disempowerment</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Worry">Worry</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Shameful">Shameful</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Depressed">Depressed</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#IdentityTheftHarm">IdentityTheftLoss</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Self-Censorship">SelfCensorship</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Gluttony">Gluttony</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#LowSatisfaction">LowSatisfaction</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#CognitiveImpairement">CognitiveImpairement</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#NegativePerception">NegativePerception</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Overwhelmed">sc2r:Overwhelmed</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#FeelingUpset">sc2r:FeelingUpset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#NegativePerception">sc2r:NegativePerception</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#LowSatisfaction">sc2r:LowSatisfaction</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Gluttony">sc2r:Gluttony</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Depressed">sc2r:Depressed</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IdentityTheftHarm">sc2r:IdentityTheftLoss</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#LossofConfidence">sc2r:LossOfConfidence</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Disempowerment">sc2r:Disempowerment</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Confusion">sc2r:Confusion</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Frustration">sc2r:Frustration</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Mistreatment">sc2r:Mistreatment</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Distraction">sc2r:Distraction</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Shameful">sc2r:Shameful</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Self-Censorship">sc2r:SelfCensorship</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Guilty">sc2r:Guilty</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Prosecution">sc2r:Prosecution</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#CognitiveImpairement">sc2r:CognitiveImpairement</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Discomfort">sc2r:Discomfort</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Addiction">sc2r:Addiction</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#LowMorale">sc2r:LowMorale</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Worry">sc2r:Worry</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Embarrassed">sc2r:Embarrassed</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5564,7 +5867,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#RighttoPrivacy">Privacy</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoPrivacy">sc2r:Privacy</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5585,7 +5888,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialEngineering">SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialEngineering">sc2r:SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5600,7 +5903,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHarm">SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHarm">sc2r:SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5621,7 +5924,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHacking">SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHacking">sc2r:SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5642,7 +5945,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AvailabilityThreat">AvailabilityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AvailabilityThreat">sc2r:AvailabilityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5663,7 +5966,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ConfidentialityThreat">ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ConfidentialityThreat">sc2r:ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5676,19 +5979,26 @@
                 <td><code>http://cs.unu.edu/sc2r#RecoverMeasure</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Responses are framed around four resilience phases of Prepare, Absorb, Recover, and Adapt.</p>
+<p>The Recover phase starts the moment the adverse incident stops or is halted, and when restoration of lost cyber functioning begins. Timely and effective recover measures are necessary to reduce the compounded negative impacts of disrupted cyber functioning.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Response">Response</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Response">sc2r:Response</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#FactChecking">Fact-checking</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ExternalSupport">ExternalSupport</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#AccountRecovery">AccountRecovery</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SystemRecovery">SystemRecovery</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DataRecovery">DataRecovery</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AccountRecovery">sc2r:AccountRecovery</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#FactChecking">sc2r:Fact-checking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DataRecovery">sc2r:DataRecovery</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SystemRecovery">sc2r:SystemRecovery</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ExternalSupport">sc2r:ExternalSupport</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5701,9 +6011,15 @@
                 <td><code>http://cs.unu.edu/sc2r#RecoveryPlan</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Recovery planning is the process of putting in place plans to restore and recover cyber functioning when adverse incidents do occur.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AnticipateMeasure">AnticipateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AnticipateMeasure">sc2r:AnticipateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5718,7 +6034,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ReputationalHarm">ReputationalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ReputationalHarm">sc2r:ReputationalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5733,7 +6049,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalHarm">PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalHarm">sc2r:PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5746,18 +6062,24 @@
                 <td><code>http://cs.unu.edu/sc2r#RedundancyMeasure</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Redundancy measure is a preparation measure that involves putting in place redundant resources, to be utilized in cases where core resources are compromised and affected by adverse cyber incidents.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AnticipateMeasure">AnticipateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AnticipateMeasure">sc2r:AnticipateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#DataRedundancy">DataRedundancy</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SoftwareRedundancy">SoftwareRedundancy</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#NetworkRedundancy">NetworkRedundancy</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SourceRedundancy">SourceRedundancy</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#NetworkRedundancy">sc2r:NetworkRedundancy</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SourceRedundancy">sc2r:SourceRedundancy</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DataRedundancy">sc2r:DataRedundancy</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SoftwareRedundancy">sc2r:SoftwareRedundancy</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5778,7 +6100,36 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IntegrityThreat">IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IntegrityThreat">sc2r:IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="RemovalMeasure">
+        <h3>Removal Measure<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://cs.unu.edu/sc2r#RemovalMeasure</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Removal measure involve the direct removal and elimination of the cyber threat.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="#EngageMeasure">sc2r:EngageMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#MaliciousContactRemoval">sc2r:MaliciousContactRemoval</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MaliciousContentRemoval">sc2r:MaliciousContentRemoval</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MaliciousSoftwareRemoval">sc2r:MaliciousSoftwareRemoval</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5799,7 +6150,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IntegrityThreat">IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IntegrityThreat">sc2r:IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5812,15 +6163,21 @@
                 <td><code>http://cs.unu.edu/sc2r#Reporting</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Reporting measure is the reporting of an adverse cyber incident to external responders.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AbsorbMeasure">AbsorbMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AbsorbMeasure">sc2r:AbsorbMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#IncidentReporting">IncidentReporting</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IncidentReporting">sc2r:IncidentReporting</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5841,7 +6198,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialCapitalResource">SocialCapital</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialCapitalResource">sc2r:SocialCapital</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5856,16 +6213,16 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Harm">Harm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Harm">sc2r:Harm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#DamagedSocialPerception">DamagedSocialPerception</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ReducedOpportunities">ReducedOpportunities</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Blacklisted">Blacklisted</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#UnderScrutiny">UnderScrutiny</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ReducedOpportunities">sc2r:ReducedOpportunities</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DamagedSocialPerception">sc2r:DamagedSocialPerception</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#UnderScrutiny">sc2r:UnderScrutiny</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Blacklisted">sc2r:Blacklisted</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5886,7 +6243,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PrivacyThreat">PrivacyThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PrivacyThreat">sc2r:PrivacyThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5907,24 +6264,24 @@
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#PhysicalResource">PhysicalResource</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#InfrastructureResource">InfrastructureResource</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#IndividualPersonalResource">IndividualResource</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DigitalResource">DigitalResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InfrastructureResource">sc2r:InfrastructureResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualPersonalResource">sc2r:IndividualResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DigitalResource">sc2r:DigitalResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalResource">sc2r:PhysicalResource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="#hasVulnerability">hasVulnerability</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#isDamagedBy">isDamagedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isDamagedBy">sc2r:isDamagedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#hasVulnerability">sc2r:hasVulnerability</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="#damages">damages</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#isAVulnerabilityOf">isAVulnerabilityOf</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#damages">sc2r:damages</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isAVulnerabilityOf">sc2r:isAVulnerabilityOf</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5945,24 +6302,24 @@
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#AdaptMeasure">AdaptMeasure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#PrepareMeasure">PrepareMeasure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#AbsorbMeasure">AbsorbMeasure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#RecoverMeasure">RecoverMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AbsorbMeasure">sc2r:AbsorbMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AdaptMeasure">sc2r:AdaptMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PrepareMeasure">sc2r:PrepareMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RecoverMeasure">sc2r:RecoverMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="#reduces">reduces</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#mitigates">mitigates</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#reduces">sc2r:reduces</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#mitigates">sc2r:mitigates</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="#isMitigatedBy">isMitigatedBy</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#isReducedBy">isReducedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isReducedBy">sc2r:isReducedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isMitigatedBy">sc2r:isMitigatedBy</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5975,9 +6332,15 @@
                 <td><code>http://cs.unu.edu/sc2r#RestrictiveMediation</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Restrictive mediation are a set of rules and limits that are placed on individuals to minimize the negative impacts in use of cyber resources.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MediationMeasures">MediationMeasures</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MediationMeasures">sc2r:MediationMeasures</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -5998,17 +6361,17 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualPersonalResource">IndividualResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualPersonalResource">sc2r:IndividualResource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#RighttoAssembly">Assembly</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#RighttoPrivacy">Privacy</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#RighttoExpression">Expression</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#RighttoOpinion">Opinion</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#RighttoInformation">Information</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoAssembly">sc2r:Assembly</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoInformation">sc2r:Information</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoOpinion">sc2r:Opinion</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoExpression">sc2r:Expression</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoPrivacy">sc2r:Privacy</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6029,7 +6392,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#StorageAsset">StorageAsset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#StorageAsset">sc2r:StorageAsset</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6042,9 +6405,15 @@
                 <td><code>http://cs.unu.edu/sc2r#Sandboxing</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Sandboxing is a mechanism of isolating the operation of cyber resources that may otherwise cause wide spreading adverse incidents.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AccessControl">AccessControl</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AccessControl">sc2r:AccessControl</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6065,7 +6434,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#InfluenceOperation">InfluenceOperation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InfluenceOperation">sc2r:InfluenceOperation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6086,14 +6455,14 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialEngineering">SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TheftThreat">sc2r:TheftThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#FakeGiveaways">FakeGiveways</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SweepstakesScam">SweepstakesScam</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SweepstakesScam">sc2r:SweepstakesScam</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#FakeGiveaways">sc2r:FakeGiveways</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6108,7 +6477,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EconomicHarm">EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EconomicHarm">sc2r:EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6129,7 +6498,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialEngineering">SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InfluenceThreat">sc2r:InfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6150,7 +6519,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Trolling">Trolling</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Trolling">sc2r:Trolling</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6165,7 +6534,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6180,7 +6549,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#BodilyInjury">BodilyInjury</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#BodilyInjury">sc2r:BodilyInjury</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6201,7 +6570,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ComputingAsset">ComputingAsset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ComputingAsset">sc2r:ComputingAsset</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6222,7 +6591,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SexualAbuseThreat">SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SexualAbuseThreat">sc2r:SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6243,19 +6612,19 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AbuseThreat">Abuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AbuseThreat">sc2r:Abuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#SexualAssault">SexualAssault</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#BoyfriendingandGirlfriending">BoyfriendingGirlfriending</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#LoveBombing">LoveBombing</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Grooming">Grooming</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#LuringSexualThreat">Luring</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Sextortion">Sextortion</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#PersistenceSexualThreat">Persistence</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Grooming">sc2r:Grooming</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#LuringSexualThreat">sc2r:Luring</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PersistenceSexualThreat">sc2r:Persistence</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SexualAssault">sc2r:SexualAssault</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Sextortion">sc2r:Sextortion</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#LoveBombing">sc2r:LoveBombing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#BoyfriendingandGirlfriending">sc2r:BoyfriendingGirlfriending</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6276,7 +6645,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SexualAbuseThreat">SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SexualAbuseThreat">sc2r:SexualAbuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6291,7 +6660,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6312,7 +6681,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Deceit">Deceit</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Deceit">sc2r:Deceit</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6333,7 +6702,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MentalFaculties">MentalFaculties</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MentalFaculties">sc2r:MentalFaculties</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6354,7 +6723,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ConfidentialityThreat">ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ConfidentialityThreat">sc2r:ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6375,7 +6744,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Phishing">Phishing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Phishing">sc2r:Phishing</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6396,14 +6765,14 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualPersonalResource">IndividualResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualPersonalResource">sc2r:IndividualResource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#SocialNetworkResource">SocialNetwork</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ReputationResource">Reputation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ReputationResource">sc2r:Reputation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialNetworkResource">sc2r:SocialNetwork</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6424,7 +6793,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PersonalData">PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PersonalData">sc2r:PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6445,19 +6814,17 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialThreat">SocialThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InfluenceThreat">sc2r:InfluenceThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Tailgating">Tailgating</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Scam">Scam</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Phishing">Phishing</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#QuidProQuo">QuidProQuo</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Pretexting">Pretexting</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Baiting">Baiting</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Scareware">Scareware</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Baiting">sc2r:Baiting</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Tailgating">sc2r:Tailgating</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Phishing">sc2r:Phishing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Pretexting">sc2r:Pretexting</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#QuidProQuo">sc2r:QuidProQuo</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6478,22 +6845,22 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialThreat">SocialThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocietalandSocialThreat">sc2r:SocialThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Flooding">Flooding</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SockPuppetry">SockPuppetry</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ParasocialHacking">ParasocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Cheerleading">Cheerleading</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#BlackPropaganda">BlackPropaganda</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Socio-cognitiveHacking">SociocognitiveHacking</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#PointandShriek">PointAndShriek</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Laundering">Laundering</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Polarization">Polarization</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Raiding">Raiding</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SockPuppetry">sc2r:SockPuppetry</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Socio-cognitiveHacking">sc2r:SociocognitiveHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Cheerleading">sc2r:Cheerleading</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Flooding">sc2r:Flooding</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ParasocialHacking">sc2r:ParasocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#BlackPropaganda">sc2r:BlackPropaganda</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Raiding">sc2r:Raiding</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Polarization">sc2r:Polarization</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PointandShriek">sc2r:PointAndShriek</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Laundering">sc2r:Laundering</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6508,18 +6875,18 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Harm">Harm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Harm">sc2r:Harm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#SocialWithdrawal">SocialWithdrawal</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DamagedRelationship">DamagedRelationship</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Isolation">Isolation</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Radicalization">Radicalization</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Conflict">Conflict</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ImpairedPrivateSocialBoundary">ImpairedPrivateSocialBoundary</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Conflict">sc2r:Conflict</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ImpairedPrivateSocialBoundary">sc2r:ImpairedPrivateSocialBoundary</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DamagedRelationship">sc2r:DamagedRelationship</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialWithdrawal">sc2r:SocialWithdrawal</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Radicalization">sc2r:Radicalization</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Isolation">sc2r:Isolation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6532,9 +6899,15 @@
                 <td><code>http://cs.unu.edu/sc2r#SocialMediaHygiene</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Email hygiene are measures and practices that contribute to safe and secure use of social media.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#WebHygiene">WebHygiene</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#WebHygiene">sc2r:WebHygiene</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6547,9 +6920,15 @@
                 <td><code>http://cs.unu.edu/sc2r#SocialMediaMonitoring</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Social media monitoring involves observing and checking social media resources for signs of adverse incidents.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ThreatMonitoringMeasure">ThreatMonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ThreatMonitoringMeasure">sc2r:ThreatMonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6570,7 +6949,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialCapitalResource">SocialCapital</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialCapitalResource">sc2r:SocialCapital</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6591,7 +6970,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#RighttoPrivacy">Privacy</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RighttoPrivacy">sc2r:Privacy</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6604,15 +6983,22 @@
                 <td><code>http://cs.unu.edu/sc2r#SocialSupport</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>This involves leveraging individuals social capital towards recovery to the lost cyber functioning. </p>
+<p>For example, in the case of socio-technical threats, social support can enable individuals to deal with the adverse incident and to recover from its impacts.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ExternalSupport">ExternalSupport</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ExternalSupport">sc2r:ExternalSupport</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
-    <div class="entity class" id="SocialThreat">
-        <h3>Social Threat<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="SocietalandSocialThreat">
+        <h3>Societal and Social Threat<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -6627,18 +7013,13 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Coercion">Coercion</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SocialEngineering">SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Extortion">Extortion</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Fraud">Fraud</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SocialHacking">SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#AbuseThreat">Abuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHacking">sc2r:SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6653,7 +7034,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHarm">SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHarm">sc2r:SocialHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6674,7 +7055,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHacking">SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHacking">sc2r:SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6695,7 +7076,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialHacking">SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialHacking">sc2r:SocialHacking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6716,13 +7097,13 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#DigitalResource">DigitalResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DigitalResource">sc2r:DigitalResource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#OnlineService">OnlineServices</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#OnlineService">sc2r:OnlineServices</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6735,9 +7116,15 @@
                 <td><code>http://cs.unu.edu/sc2r#SoftwareRedundancy</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Software redundancy involves having redundant software in place to be utilized in cases where primary software is affected by adverse cyber incidents.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#RedundancyMeasure">RedundancyMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RedundancyMeasure">sc2r:RedundancyMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6752,7 +7139,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#DigitalVulnerability">Digital</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DigitalVulnerability">sc2r:Digital</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6773,7 +7160,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PrivacyThreat">PrivacyThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PrivacyThreat">sc2r:PrivacyThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6788,13 +7175,13 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>This is for alternative information sources for influence operations</p>
+                    <p>Source redundancy involves having alternative sources of information, content and services to be utilized in cases where primary sources are affected by adverse cyber incidents.</p>
                 </td>
             </tr>
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#RedundancyMeasure">RedundancyMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RedundancyMeasure">sc2r:RedundancyMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6815,7 +7202,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#UnsolicitedCommunication">UnsolicitedCommunication</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#UnsolicitedCommunication">sc2r:UnsolicitedCommunication</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6836,13 +7223,13 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Phishing">Phishing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Phishing">sc2r:Phishing</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#WhalingPhishing">Whaling</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#WhalingPhishing">sc2r:Whaling</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6863,7 +7250,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AuthenticationThreat">AuthenticationThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AuthenticationThreat">sc2r:AuthenticationThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6884,15 +7271,15 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalResource">PhysicalResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalResource">sc2r:PhysicalResource</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#SDCard">SDCard</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#ExternalHardDrive">ExternalHardDrive</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#USBDrive">USBDrive</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#USBDrive">sc2r:USBDrive</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ExternalHardDrive">sc2r:ExternalHardDrive</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SDCard">sc2r:SDCard</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6913,7 +7300,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MalignRhetoric">MalignRhetoric</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MalignRhetoric">sc2r:MalignRhetoric</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6934,7 +7321,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#InstitutionalThreat">InstitutionalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InstitutionalThreat">sc2r:InstitutionalThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6955,7 +7342,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Scam">Scam</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Scam">sc2r:Scam</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6970,7 +7357,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualandPersonalVulnerability">Individual</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalVulnerability">sc2r:Individual</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -6983,9 +7370,15 @@
                 <td><code>http://cs.unu.edu/sc2r#SystemRecovery</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>System recovery involves the restoration of a system, including services and configuration, to the level of nominal functioning equivalent to that before an adverse cyber incident.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#RecoverMeasure">RecoverMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#RecoverMeasure">sc2r:RecoverMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7006,7 +7399,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SocialEngineering">SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialEngineering">sc2r:SocialEngineering</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7019,9 +7412,15 @@
                 <td><code>http://cs.unu.edu/sc2r#TechnicalMediation</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Technical mediation is the use of technology solutions to limit the impact of adverse cyber incidents.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MediationMeasures">MediationMeasures</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MediationMeasures">sc2r:MediationMeasures</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7042,17 +7441,38 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#ConfidentialityThreat">ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#AuthenticationThreat">AuthenticationThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#IntegrityThreat">IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#AvailabilityThreat">AvailabilityThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#Non-repudiationThreat">NonRepudiationThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Non-repudiationThreat">sc2r:NonRepudiationThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IntegrityThreat">sc2r:IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AuthenticationThreat">sc2r:AuthenticationThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AvailabilityThreat">sc2r:AvailabilityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ConfidentialityThreat">sc2r:ConfidentialityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="RighttoTerritorialPrivacy">
+        <h3>Right to Territorial Privacy<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://cs.unu.edu/sc2r#TerritorialPrivacy</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>The right to protect personal space, property, and objects.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="#RighttoPrivacy">sc2r:Privacy</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7067,7 +7487,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalHarm">PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalHarm">sc2r:PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7082,7 +7502,36 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EconomicHarm">EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EconomicHarm">sc2r:EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="TheftThreat">
+        <h3>Theft Threat<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://cs.unu.edu/sc2r#TheftThreat</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Theft threats aim to steal of defraud individuals of certain resources.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="#IndividualandPersonalThreat">sc2r:PersonalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#IdentityTheft">sc2r:IdentityTheft</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Scam">sc2r:Scam</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Fraud">sc2r:Fraud</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7103,30 +7552,30 @@
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#SocialThreat">SocialThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#EnvironmentalThreat">EnvironmentalThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#TechnologicalThreat">TechnologicalThreat</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#PersonalThreat">PersonalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocietalandSocialThreat">sc2r:SocialThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EnvironmentalThreat">sc2r:EnvironmentalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalThreat">sc2r:PersonalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TechnologicalThreat">sc2r:TechnologicalThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="#damages">damages</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#resultsIn">resultsIn</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#canResultIn">canResultIn</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#exploits">exploits</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#isMitigatedBy">isMitigatedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#damages">sc2r:damages</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#exploits">sc2r:exploits</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#canResultIn">sc2r:canResultIn</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isMitigatedBy">sc2r:isMitigatedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#resultsIn">sc2r:resultsIn</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="#isResultOf">isResultOf</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#mitigates">mitigates</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#isExploitedBy">isExploitedBy</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#isDamagedBy">isDamagedBy</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#canBeResultOf">canBeResultOf</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isResultOf">sc2r:isResultOf</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isDamagedBy">sc2r:isDamagedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isExploitedBy">sc2r:isExploitedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#mitigates">sc2r:mitigates</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#canBeResultOf">sc2r:canBeResultOf</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7139,18 +7588,24 @@
                 <td><code>http://cs.unu.edu/sc2r#ThreatMonitoringMeasure</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Threat monitoring is the process of continually monitoring and observing the operation and use of cyber resources for signs of adverse cyber incidents and threats.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MonitoringMeasure">MonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MonitoringMeasure">sc2r:MonitoringMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#MaliciousSoftwareDetection">MaliciousSoftwareDetection</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#IntrusionDetection">IntrusionDetection</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#SocialMediaMonitoring">SocialMediaMonitoring</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#FailureDetection">FailureDetection</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MaliciousSoftwareDetection">sc2r:MaliciousSoftwareDetection</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IntrusionDetection">sc2r:IntrusionDetection</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#FailureDetection">sc2r:FailureDetection</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialMediaMonitoring">sc2r:SocialMediaMonitoring</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7165,7 +7620,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#EconomicHarm">EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EconomicHarm">sc2r:EconomicHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7178,15 +7633,15 @@
                 <td><code>http://cs.unu.edu/sc2r#Training</code></td>
             </tr>
             <tr>
-                <th>Super-classes</th>
+                <th>Description</th>
                 <td>
-                    <a href="#AnticipateMeasure">AnticipateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <p>Training is a capability building measure that enhances individuals skills and competencies to be able to deal with and handle adverse cyber incidents.</p>
                 </td>
             </tr>
             <tr>
-                <th>Sub-classes</th>
+                <th>Super-classes</th>
                 <td>
-                    <a href="#KeyPrinciples">KeyPrinciples</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AnticipateMeasure">sc2r:AnticipateMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7207,7 +7662,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MalignRhetoric">MalignRhetoric</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MalignRhetoric">sc2r:MalignRhetoric</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7228,13 +7683,13 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AbuseThreat">Abuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AbuseThreat">sc2r:Abuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Sealioning">Sealioning</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Sealioning">sc2r:Sealioning</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7247,9 +7702,15 @@
                 <td><code>http://cs.unu.edu/sc2r#TrustedData</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Trusted data is the use of measures that ensure the safety, security and veracity of data.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PreventionMeasure">PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PreventionMeasure">sc2r:PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7262,9 +7723,15 @@
                 <td><code>http://cs.unu.edu/sc2r#TrustedInformation</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Trusted information is the use of information that is verified and safe, and from trusted sources.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PreventionMeasure">PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PreventionMeasure">sc2r:PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7277,15 +7744,21 @@
                 <td><code>http://cs.unu.edu/sc2r#TrustedInfrastructure</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Trusted infrastructure involves the use of safe, secure, verified and trusted cyber infrastructure.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PreventionMeasure">PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PreventionMeasure">sc2r:PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#TrustedNetworking">TrustedNetworking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TrustedNetworking">sc2r:TrustedNetworking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7298,16 +7771,22 @@
                 <td><code>http://cs.unu.edu/sc2r#TrustedNetworking</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Trusted Networking is the use of networking resources in a safe, secure, and trusted manner.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#TrustedInfrastructure">TrustedInfrastructure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TrustedInfrastructure">sc2r:TrustedInfrastructure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#AnonymousRouting">AnonymousRouting</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#VirtualPrivateNetwork">VirtualPrivateNetwork</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AnonymousRouting">sc2r:AnonymousRouting</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#VirtualPrivateNetwork">sc2r:VirtualPrivateNetwork</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7320,9 +7799,15 @@
                 <td><code>http://cs.unu.edu/sc2r#TrustedSoftware</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Trusted software involves the use of software that is safe, secure, verified and trusted. It involves using software from legitimate sources.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PreventionMeasure">PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PreventionMeasure">sc2r:PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7343,7 +7828,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#StorageAsset">StorageAsset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#StorageAsset">sc2r:StorageAsset</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7364,14 +7849,14 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AuthenticationThreat">AuthenticationThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AuthenticationThreat">sc2r:AuthenticationThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#Piggybacking">Piggybacking</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#NetworkIntrusion">NetworkIntrusion</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Piggybacking">sc2r:Piggybacking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#NetworkIntrusion">sc2r:NetworkIntrusion</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7386,7 +7871,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PhysicalHarm">PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalHarm">sc2r:PhysicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7401,7 +7886,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#ReputationalHarm">ReputationalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ReputationalHarm">sc2r:ReputationalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7422,14 +7907,14 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AbuseThreat">Abuse</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AbuseThreat">sc2r:Abuse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#SpamEmail">SpamEmail</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#UnsolicitedSocialRequest">UnsolicitedSocialRequest</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SpamEmail">sc2r:SpamEmail</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#UnsolicitedSocialRequest">sc2r:UnsolicitedSocialRequest</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7450,7 +7935,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#UnsolicitedCommunication">UnsolicitedCommunication</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#UnsolicitedCommunication">sc2r:UnsolicitedCommunication</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7465,7 +7950,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IndividualandPersonalVulnerability">Individual</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalVulnerability">sc2r:Individual</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7486,7 +7971,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PersonalData">PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PersonalData">sc2r:PersonalData</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7499,9 +7984,15 @@
                 <td><code>http://cs.unu.edu/sc2r#UserIdentification</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Use identification is the confirmation of the claimed identify of users.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Identification">Identification</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Identification">sc2r:Identification</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7522,7 +8013,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#IntegrityThreat">IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IntegrityThreat">sc2r:IntegrityThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7543,13 +8034,13 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#InstitutionalThreat">InstitutionalThreat</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InstitutionalThreat">sc2r:InstitutionalThreat</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#BreachofContract">ContractBreach</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#BreachofContract">sc2r:ContractBreach</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7570,7 +8061,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#InappropriateContent">InappropriateContent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#InappropriateContent">sc2r:InappropriateContent</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7583,9 +8074,15 @@
                 <td><code>http://cs.unu.edu/sc2r#VirtualPrivateNetwork</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>A virtual private network is a networking measure that extends a private network over a public network, in a manner that ensures safety and security.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#TrustedNetworking">TrustedNetworking</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TrustedNetworking">sc2r:TrustedNetworking</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7606,7 +8103,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#Phishing">Phishing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Phishing">sc2r:Phishing</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7627,25 +8124,25 @@
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#IndividualandPersonalVulnerability">Individual</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#PhysicalVulnerability">Physical</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#DigitalVulnerability">Digital</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DigitalVulnerability">sc2r:Digital</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IndividualandPersonalVulnerability">sc2r:Individual</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PhysicalVulnerability">sc2r:Physical</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="#isAVulnerabilityOf">isAVulnerabilityOf</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#isReducedBy">isReducedBy</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#isExploitedBy">isExploitedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isAVulnerabilityOf">sc2r:isAVulnerabilityOf</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isReducedBy">sc2r:isReducedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isExploitedBy">sc2r:isExploitedBy</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="#exploits">exploits</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#hasVulnerability">hasVulnerability</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="#reduces">reduces</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#reduces">sc2r:reduces</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#exploits">sc2r:exploits</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#hasVulnerability">sc2r:hasVulnerability</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7658,16 +8155,22 @@
                 <td><code>http://cs.unu.edu/sc2r#WebHygiene</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Web hygiene are measures and steps that individuals undertake to improve their cyber security and safety.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PreventionMeasure">PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PreventionMeasure">sc2r:PreventionMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#SocialMediaHygiene">SocialMediaHygiene</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#EmailHygiene">EmailHygiene</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SocialMediaHygiene">sc2r:SocialMediaHygiene</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#EmailHygiene">sc2r:EmailHygiene</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7688,7 +8191,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#SpearPhishing">SpearPhishing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SpearPhishing">sc2r:SpearPhishing</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7709,7 +8212,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#MalignRhetoric">MalignRhetoric</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#MalignRhetoric">sc2r:MalignRhetoric</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7722,16 +8225,22 @@
                 <td><code>http://cs.unu.edu/sc2r#WithstandMeasure</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Withstand measures aim to stand against and resist the adverse incidents to maintain a level of cyber funtioning.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AbsorbMeasure">AbsorbMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AbsorbMeasure">sc2r:AbsorbMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="#AlternativeChannelMeasure">AlternativeChannel</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="#IncreaseResourceMeasure">IncreaseResources</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AlternativeResourceMeasure">sc2r:AlternativeResource</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#IncreaseResourceMeasure">sc2r:IncreaseResources</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7746,7 +8255,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#PsychologicalHarm">PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#PsychologicalHarm">sc2r:PsychologicalHarm</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7759,9 +8268,15 @@
                 <td><code>http://cs.unu.edu/sc2r#YouAreNotImmune</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>This attitute emphasizes the fact that everyone is susceptible to adverse cyber incidents.</p>
+                </td>
+            </tr>
+            <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="#AttitudinalMeasure">AttitudinalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#AttitudinalMeasure">sc2r:AttitudinalMeasure</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -7796,19 +8311,19 @@
             <tr>
                 <th>Inverse properties</th>
                 <td>
-                    <a href="#canResultIn">canResultIn</a><sup class="sup-op" title="object property">op</sup>
+                    <a href="#canResultIn">sc2r:canResultIn</a><sup class="sup-op" title="object property">op</sup>
                 </td>
             </tr>
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Harm">Harm</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Harm">sc2r:Harm</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -7823,13 +8338,13 @@
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Harm">Harm</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Harm">sc2r:Harm</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -7844,19 +8359,19 @@
             <tr>
                 <th>Inverse properties</th>
                 <td>
-                    <a href="#isDamagedBy">isDamagedBy</a><sup class="sup-op" title="object property">op</sup>
+                    <a href="#isDamagedBy">sc2r:isDamagedBy</a><sup class="sup-op" title="object property">op</sup>
                 </td>
             </tr>
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Resource">Resource</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Resource">sc2r:Resource</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -7871,19 +8386,19 @@
             <tr>
                 <th>Inverse properties</th>
                 <td>
-                    <a href="#isExploitedBy">isExploitedBy</a><sup class="sup-op" title="object property">op</sup>
+                    <a href="#isExploitedBy">sc2r:isExploitedBy</a><sup class="sup-op" title="object property">op</sup>
                 </td>
             </tr>
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Vulnerability">Vulnerability</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Vulnerability">sc2r:Vulnerability</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -7898,19 +8413,19 @@
             <tr>
                 <th>Inverse properties</th>
                 <td>
-                    <a href="#isAVulnerabilityOf">isAVulnerabilityOf</a><sup class="sup-op" title="object property">op</sup>
+                    <a href="#isAVulnerabilityOf">sc2r:isAVulnerabilityOf</a><sup class="sup-op" title="object property">op</sup>
                 </td>
             </tr>
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Resource">Resource</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Resource">sc2r:Resource</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Vulnerability">Vulnerability</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Vulnerability">sc2r:Vulnerability</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -7925,13 +8440,13 @@
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Vulnerability">Vulnerability</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Vulnerability">sc2r:Vulnerability</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Resource">Resource</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Resource">sc2r:Resource</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -7946,13 +8461,13 @@
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Resource">Resource</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Resource">sc2r:Resource</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -7967,13 +8482,13 @@
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Vulnerability">Vulnerability</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Vulnerability">sc2r:Vulnerability</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -7988,19 +8503,19 @@
             <tr>
                 <th>Inverse properties</th>
                 <td>
-                    <a href="#mitigates">mitigates</a><sup class="sup-op" title="object property">op</sup>
+                    <a href="#mitigates">sc2r:mitigates</a><sup class="sup-op" title="object property">op</sup>
                 </td>
             </tr>
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Response">Response</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Response">sc2r:Response</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -8015,19 +8530,19 @@
             <tr>
                 <th>Inverse properties</th>
                 <td>
-                    <a href="#reduces">reduces</a><sup class="sup-op" title="object property">op</sup>
+                    <a href="#reduces">sc2r:reduces</a><sup class="sup-op" title="object property">op</sup>
                 </td>
             </tr>
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Vulnerability">Vulnerability</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Vulnerability">sc2r:Vulnerability</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Response">Response</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Response">sc2r:Response</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -8042,25 +8557,25 @@
             <tr>
                 <th>Super-properties</th>
                 <td>
-                    <a href="#canBeResultOf">canBeResultOf</a><sup class="sup-op" title="object property">op</sup>
+                    <a href="#canBeResultOf">sc2r:canBeResultOf</a><sup class="sup-op" title="object property">op</sup>
                 </td>
             </tr>
             <tr>
                 <th>Inverse properties</th>
                 <td>
-                    <a href="#resultsIn">resultsIn</a><sup class="sup-op" title="object property">op</sup>
+                    <a href="#resultsIn">sc2r:resultsIn</a><sup class="sup-op" title="object property">op</sup>
                 </td>
             </tr>
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Harm">Harm</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Harm">sc2r:Harm</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -8075,13 +8590,13 @@
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Response">Response</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Response">sc2r:Response</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -8096,13 +8611,13 @@
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Response">Response</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Response">sc2r:Response</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Vulnerability">Vulnerability</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Vulnerability">sc2r:Vulnerability</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -8126,19 +8641,19 @@
             <tr>
                 <th>Super-properties</th>
                 <td>
-                    <a href="#canResultIn">canResultIn</a><sup class="sup-op" title="object property">op</sup>
+                    <a href="#canResultIn">sc2r:canResultIn</a><sup class="sup-op" title="object property">op</sup>
                 </td>
             </tr>
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="#Threat">Threat</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Threat">sc2r:Threat</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="#Harm">Harm</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Harm">sc2r:Harm</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -8183,52 +8698,6 @@
     </div>
 </section>
 
-<section id="annotationproperties">
-    <h2>Annotation Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
-    <ul class="hlist">
-        <li><a href="#contributor">contributor</a></li>
-        <li><a href="#creator">creator</a></li>
-        <li><a href="#name">name</a></li>
-        <li><a href="#url">url</a></li>
-    </ul>
-    <div class="entity property" id="contributor">
-        <h3>contributor<sup title="annotation property" class="sup-ap">ap</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td><code>http://purl.org/dc/elements/1.1/contributor</code></td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity property" id="creator">
-        <h3>creator<sup title="annotation property" class="sup-ap">ap</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td><code>http://purl.org/dc/elements/1.1/creator</code></td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity property" id="name">
-        <h3>name<sup title="annotation property" class="sup-ap">ap</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td><code>http://schema.org/name</code></td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity property" id="url">
-        <h3>url<sup title="annotation property" class="sup-ap">ap</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td><code>http://schema.org/url</code></td>
-            </tr>
-        </table>
-    </div>
-</section>
-
   
   <section id="namedindividuals">
     <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
@@ -8240,9 +8709,7 @@
     <h2>Namespaces <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <dl>
         <dt>:</dt>
-        <dd><code>http://cs.unu.edu/sc2r#</code></dd>
-        <dt>dc</dt>
-        <dd><code>http://purl.org/dc/elements/1.1/#</code></dd>
+        <dd><code>http://www.semanticweb.org/mamello/ontologies/2020/5/sc2r#</code></dd>
         <dt>owl</dt>
         <dd><code>http://www.w3.org/2002/07/owl#</code></dd>
         <dt>prov</dt>
@@ -8251,8 +8718,8 @@
         <dd><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></dd>
         <dt>rdfs</dt>
         <dd><code>http://www.w3.org/2000/01/rdf-schema#</code></dd>
-        <dt>schema</dt>
-        <dd><code>http://schema.org/</code></dd>
+        <dt>sc2r</dt>
+        <dd><code>http://cs.unu.edu/sc2r#</code></dd>
         <dt>sdo</dt>
         <dd><code>https://schema.org/</code></dd>
         <dt>skos</dt>
