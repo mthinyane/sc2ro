@@ -46,7 +46,7 @@ The SC2RO ontology can be used for several purposes including:
 * To serve as a reference model and to inform operationalization of citizens' cyber resilience
 * To serve as a knowledge repository for relevant ICT artifacts and tools (e.g., risk assessment tools, APIs)
 
-## How you can get involved?
+## How can you get involved?
 You can contribute towards this goal by:
 
 * Refining the concepts in the ontology
