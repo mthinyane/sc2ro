@@ -26,6 +26,9 @@ The Smart Citizen Cyber Resilience Ontology (SC2RO) maps the cyber resilience la
 
 **Harms** are the realized impacts of the unmitigated threats whose ultimate effect on individuals is to reduce their cyber capabilities and hamper their cyber functionings.
 
+For more details you can [browse the documentation](/detail_html/) or [view the visualization](/detail_dendo/) of the ontology. Alternative versions of the documentation are available [here](/detail_pl/) and [here](/detail_os/).
+{: .notice--info}
+
 ## Why is this important?
 Cyber resilience has largely been framed from the perspectives of nation-states, governments, and the private sector. This framing tends to neglect the cyber resilience role of civil society stakeholders. Further, cybersecurity frameworks, as well as resilience management frameworks have focused on building the security and resilience of critical infrastructures, information systems, critical sectors, and for-profit organizations. 
 
