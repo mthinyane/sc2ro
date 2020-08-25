@@ -1,7 +1,9 @@
 - title: Home
-  url: https://unu-macau.github.io/sc2ro/
+  url: /
 - title: Documentation
-  url: /ontology
+  url: /detail_html/
+- title: Visualization
+  url: /detail_dendo/  
 - title: GitHub Page
   url: https://github.com/UNU-Macau/sc2ro
 - title: Project Page
