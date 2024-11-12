@@ -44,7 +44,7 @@ The SC2RO ontology can be used for several purposes including:
 ## Recommended Citation ##
 *To reference the SC2RO in your research and publications, please use the following citation:*
 
-Thinyane, M. and Christine, D. (*forthcoming*) **SMART Citizen Cyber resilience (SC2RO) Ontology**, United Nations University
+Mamello Thinyane and Debora Christine. 2021. SMART Citizen Cyber Resilience (SC2R) Ontology. In 13th International Conference on Security of Information and Networks (SIN 2020). Association for Computing Machinery, New York, NY, USA, Article 14, 1–8. https://doi.org/10.1145/3433174.3433617
 
 ## More Information and Contact ##
 For more information on this ontology please visit the [Smart Citizen Cyber Resilience project website](https://cs.unu.edu/smart-citizens-cyber-resilience). 
